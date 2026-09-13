@@ -1,0 +1,17 @@
+{
+  "about": {
+    "title_id": "Setiap helai rotan punya cerita, kami hanya membantu menganyamnya",
+    "title_en": "Every strand of rattan has a story — we simply help weave it",
+    "description_id": "Global Rotan lahir dari bengkel kecil di Jepara — kota yang sejak lama dikenal sebagai pusat anyaman rotan Indonesia. Kami menghubungkan petani rotan, pengrajin tangan, dan rumah-rumah di berbagai penjuru dunia lewat karya yang dianyam dengan sabar, bukan diburu waktu.",
+    "description_en": "Global Rotan began in a small workshop in Jepara — a town long known as the centre of Indonesian rattan weaving. We connect rattan farmers, hand weavers and homes around the world through pieces woven with patience, never rushed.",
+    "story_title_id": "Dari hutan mitra di Sumatra dan Kalimantan, sampai ke ruang tamu Anda",
+    "story_title_en": "From partner forests in Sumatra and Kalimantan to your living room",
+    "story_body_id": "Perjalanan kami dimulai dari rasa hormat pada bahan baku rotan alami dan tangan-tangan yang mengolahnya turun-temurun. Kami percaya kualitas terbaik datang dari proses yang tidak dipercepat: rotan dipilih satu per satu, direndam dan dikeringkan dengan cara tradisional, lalu dianyam oleh pengrajin yang sudah menekuni kerajinan ini sejak kecil.\n\nHari ini, Global Rotan bekerja sama dengan puluhan keluarga pengrajin untuk menghadirkan furnitur dan kerajinan rotan yang kokoh, ramah lingkungan, dan sarat cerita — siap dikirim ke pelanggan di dalam maupun luar negeri.\n\nProsesnya: (1) panen rotan pilihan yang sudah cukup umur dan lentur dari hutan mitra; (2) perendaman dan pengeringan tradisional agar rotan lebih kuat, tahan jamur, dan mudah dibentuk; (3) anyaman tangan helai demi helai oleh pengrajin berpengalaman; (4) finishing dan kontrol kualitas menyeluruh sebelum karya dikirim.\n\n“Kami tidak sekadar membuat furnitur. Kami merawat cerita yang dianyam dari hutan Indonesia, agar sampai utuh ke rumah Anda.”",
+    "story_body_en": "Our journey began with respect for natural rattan and for the hands that have worked it for generations. We believe the best quality comes from a process that is never rushed: rattan is selected strand by strand, soaked and dried the traditional way, then woven by artisans who have practised this craft since childhood.\n\nToday, Global Rotan works with dozens of artisan families to create rattan furniture and crafts that are sturdy, environmentally friendly and full of stories — ready to ship to customers in Indonesia and abroad.\n\nOur process: (1) harvesting mature, flexible rattan from partner forests; (2) traditional soaking and drying so the rattan is stronger, mould-resistant and easy to shape; (3) hand weaving, strand by strand, by experienced artisans; (4) finishing and thorough quality control before each piece is shipped.\n\n“We don’t just make furniture. We look after stories woven from Indonesia’s forests, so they reach your home intact.”"
+  },
+  "about_facts": [
+    { "value": "15+", "label_id": "Tahun pengalaman menganyam", "label_en": "Years of weaving experience" },
+    { "value": "120+", "label_id": "Pengrajin & mitra petani rotan", "label_en": "Artisans and rattan farming partners" },
+    { "value": "20+", "label_id": "Negara tujuan pengiriman", "label_en": "Countries shipped to" }
+  ]
+}

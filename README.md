@@ -100,6 +100,23 @@ npm run build
 
 ## 6. Replacing demo content
 
+### IndoRotan catalogue import (current live data)
+
+The demo catalogue has been replaced with the IndoRotan catalogue (owner-approved): 100 products with
+344 photos in Supabase Storage (`media/products/<slug>/…`), 10 categories, 3 collections, About page
+copy and home/page imagery. Source data (Indonesian originals + English translations, specs, prices in
+IDR) lives in `scripts/data/indorotan-catalog.json` and `scripts/data/about-content.json`.
+
+```bash
+npm run import:indorotan -- --dry-run          # validate inside a rolled-back transaction
+npm run import:indorotan                      # upload photos + replace catalogue
+```
+
+The import deletes demo inquiries/messages, all testimonials, products, categories and collections before
+inserting; brand, contact and other settings are untouched. Prices are stored in IDR (`price_idr`) with a
+USD base price converted at the admin exchange rate. **Do not run `npm run db:seed` afterwards** — it adds
+the old demo catalogue back.
+
 Everything marked **demo** must be replaced before launch:
 
 - **Admin → Settings → Business & contact:** email, WhatsApp number, address, hours, socials. Untick

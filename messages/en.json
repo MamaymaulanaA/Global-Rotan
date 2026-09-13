@@ -597,16 +597,16 @@
     "valuesTitle": "What we value",
     "values": {
       "craft": {
-        "title": "Craft first",
-        "text": "Good furniture starts with patient handwork and sound joinery."
+        "title": "Skilled hands",
+        "text": "Woven by artisans with decades of experience, using skills passed down from generation to generation."
       },
       "material": {
-        "title": "Natural materials",
-        "text": "Rattan is fast-growing and renewable. We use it thoughtfully."
+        "title": "Selected fibres",
+        "text": "We only work with mature, flexible rattan, chosen directly from partner forests to ensure the strength and durability of every weave."
       },
       "partnership": {
-        "title": "Long-term partnership",
-        "text": "We aim to be a supplier you can reorder from with confidence."
+        "title": "Sustainable growth",
+        "text": "We keep harvests in balance by replanting, while supporting the livelihoods of local farming and artisan families."
       },
       "clarity": {
         "title": "Clear communication",
@@ -710,20 +710,64 @@
     "faqTitle": "Frequently asked questions",
     "faq": [
       {
-        "q": "Can I mix different products in one order?",
-        "a": "Yes. Many buyers combine chairs, tables and accessories in one shipment. Minimum quantities per item still apply unless agreed otherwise."
+        "q": "Where does your rattan come from?",
+        "a": "We use selected natural rattan from partner forests in Sumatra and Kalimantan, chosen directly by our artisans in Cirebon before it is processed into weaving."
       },
       {
-        "q": "Do prices on the website include shipping?",
-        "a": "No. Website prices are indicative product prices only. Freight, insurance, duties and taxes are quoted separately."
+        "q": "Is every product really woven by hand?",
+        "a": "Yes. All weaving is done manually by experienced artisans — not machines — so every product has a slightly different weave character."
       },
       {
-        "q": "Can I use my own freight forwarder?",
-        "a": "Yes. We can hand over goods to your forwarder or help you compare shipping options."
+        "q": "Are colour or finishing samples available?",
+        "a": "Several finishes are available, including natural, dark brown and whitewash. Sample photos can be sent via WhatsApp before you decide."
       },
       {
-        "q": "How do I pay for an order?",
-        "a": "Payment terms are agreed after you accept a quotation. This website does not take online payments."
+        "q": "Can I order custom sizes or designs?",
+        "a": "Yes. Send your design references, dimensions and requirements via WhatsApp and our team will estimate the cost and production time."
+      },
+      {
+        "q": "How long does a custom order take?",
+        "a": "On average 2–4 weeks depending on complexity and quantity, excluding shipping time."
+      },
+      {
+        "q": "Is there a minimum order quantity?",
+        "a": "There is no minimum for single-item purchases. For wholesale or distributor partnerships, contact us to discuss quantities and special pricing."
+      },
+      {
+        "q": "Do you ship to other cities and islands?",
+        "a": "Yes. We ship throughout Indonesia with partner freight services, including large items."
+      },
+      {
+        "q": "What about international shipping?",
+        "a": "We handle export shipments. Please contact us to discuss the destination country, estimated costs and required documents."
+      },
+      {
+        "q": "Are products packed safely for long-distance shipping?",
+        "a": "Yes, every product is wrapped in a protective layer and packed in a wooden crate or heavy-duty cardboard made for rattan goods before shipping."
+      },
+      {
+        "q": "Which payment methods are available?",
+        "a": "We accept bank transfers and digital payments. Account details are sent after your order is confirmed via WhatsApp. This website does not accept online payments."
+      },
+      {
+        "q": "Is a deposit required for custom orders?",
+        "a": "Custom orders usually require a deposit before production starts. The balance is paid when the product is finished or before it ships."
+      },
+      {
+        "q": "How should I care for rattan furniture so it lasts?",
+        "a": "Avoid prolonged exposure to water and direct sunlight, dust regularly with a dry cloth or soft brush, and place it in a room with good airflow."
+      },
+      {
+        "q": "Is rattan suitable for outdoor use?",
+        "a": "Natural rattan is best for covered terraces or semi-outdoor rooms. For fully outdoor use, ask us about weather-resistant finishing options."
+      },
+      {
+        "q": "Can I visit the workshop?",
+        "a": "Of course — visitors are welcome at our workshop in Kedung Malang, Kedung, Jepara, Central Java. Please contact us via WhatsApp first to make an appointment."
+      },
+      {
+        "q": "Do you work with resellers or distributors?",
+        "a": "We are open to reseller and distributor partnerships. Please contact us to discuss pricing and regional availability."
       }
     ],
     "ctaTitle": "Ready to plan a shipment?",

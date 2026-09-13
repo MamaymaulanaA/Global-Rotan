@@ -11,7 +11,8 @@
     "db:migrate": "node --env-file=.env.local scripts/db-migrate.mjs",
     "db:seed": "node --env-file=.env.local scripts/db-seed.mjs",
     "admin:create": "node --env-file=.env.local scripts/admin-create.mjs",
-    "admin:promote": "node --env-file=.env.local scripts/admin-promote.mjs"
+    "admin:promote": "node --env-file=.env.local scripts/admin-promote.mjs",
+    "import:indorotan": "node --env-file=.env.local scripts/import-indorotan.mjs"
   },
   "engines": {
     "node": ">=20.9.0"

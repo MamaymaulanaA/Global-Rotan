@@ -597,16 +597,16 @@
     "valuesTitle": "Nilai yang kami pegang",
     "values": {
       "craft": {
-        "title": "Mengutamakan keahlian",
-        "text": "Furnitur yang baik berawal dari pengerjaan tangan yang sabar dan sambungan yang kokoh."
+        "title": "Tangan terampil",
+        "text": "Dianyam oleh pengrajin berpengalaman puluhan tahun, dengan keterampilan yang diturunkan dari generasi ke generasi."
       },
       "material": {
-        "title": "Material alami",
-        "text": "Rotan tumbuh cepat dan terbarukan. Kami menggunakannya dengan bijak."
+        "title": "Serat pilihan",
+        "text": "Hanya rotan matang dan lentur yang kami olah, dipilih langsung dari hutan mitra untuk memastikan kekuatan dan daya tahan setiap anyaman."
       },
       "partnership": {
-        "title": "Kemitraan jangka panjang",
-        "text": "Kami ingin menjadi pemasok yang bisa Anda andalkan untuk pesanan berulang."
+        "title": "Tumbuh berkelanjutan",
+        "text": "Kami menjaga keseimbangan panen dengan menanam kembali, sambil mendukung ekonomi keluarga petani dan pengrajin lokal."
       },
       "clarity": {
         "title": "Komunikasi yang jelas",
@@ -710,20 +710,64 @@
     "faqTitle": "Pertanyaan yang sering diajukan",
     "faq": [
       {
-        "q": "Bisakah saya menggabungkan beberapa produk dalam satu pesanan?",
-        "a": "Bisa. Banyak pembeli menggabungkan kursi, meja, dan aksesori dalam satu pengiriman. Minimum order per produk tetap berlaku kecuali disepakati lain."
+        "q": "Rotan yang digunakan berasal dari mana?",
+        "a": "Kami menggunakan rotan alami pilihan dari hutan mitra di Sumatra dan Kalimantan, dipilih langsung oleh pengrajin kami di Cirebon sebelum diolah menjadi anyaman."
       },
       {
-        "q": "Apakah harga di website sudah termasuk ongkos kirim?",
-        "a": "Belum. Harga di website adalah harga indikatif produk. Ongkos kirim, asuransi, bea masuk, dan pajak dihitung terpisah."
+        "q": "Apakah setiap produk benar-benar dianyam dengan tangan?",
+        "a": "Ya. Seluruh proses anyaman dikerjakan manual oleh pengrajin berpengalaman — bukan mesin — sehingga setiap produk memiliki karakter anyaman yang sedikit berbeda satu sama lain."
       },
       {
-        "q": "Bisakah saya menggunakan forwarder sendiri?",
-        "a": "Bisa. Kami dapat menyerahkan barang kepada forwarder Anda atau membantu membandingkan pilihan pengiriman."
+        "q": "Apakah tersedia contoh warna atau finishing?",
+        "a": "Tersedia beberapa pilihan finishing natural, coklat tua, dan whitewash. Foto contoh bisa dikirimkan lewat WhatsApp sebelum Anda memutuskan."
       },
       {
-        "q": "Bagaimana cara pembayaran pesanan?",
-        "a": "Syarat pembayaran disepakati setelah Anda menyetujui penawaran. Website ini tidak menerima pembayaran online."
+        "q": "Bisakah memesan ukuran atau desain custom?",
+        "a": "Bisa. Kirimkan referensi desain, ukuran, dan kebutuhan Anda lewat WhatsApp, tim kami akan menghitung estimasi biaya dan waktu pengerjaan."
+      },
+      {
+        "q": "Berapa lama waktu pengerjaan pesanan custom?",
+        "a": "Rata-rata 2–4 minggu tergantung tingkat kerumitan dan jumlah pesanan, di luar waktu pengiriman."
+      },
+      {
+        "q": "Apakah ada jumlah pesanan minimum?",
+        "a": "Untuk pembelian satuan tidak ada minimum. Untuk kerja sama grosir atau distributor, hubungi kami untuk mendiskusikan jumlah dan harga khusus."
+      },
+      {
+        "q": "Apakah bisa kirim ke luar kota atau luar pulau?",
+        "a": "Bisa. Kami melayani pengiriman ke seluruh Indonesia menggunakan jasa ekspedisi rekanan, termasuk untuk barang berukuran besar."
+      },
+      {
+        "q": "Bagaimana dengan pengiriman ke luar negeri?",
+        "a": "Kami melayani pengiriman ekspor. Silakan hubungi kami untuk mendiskusikan negara tujuan, estimasi biaya, dan dokumen yang diperlukan."
+      },
+      {
+        "q": "Apakah produk dikemas dengan aman untuk pengiriman jauh?",
+        "a": "Ya, setiap produk dibungkus lapisan pelindung dan dikemas dalam packing kayu atau kardus tebal khusus untuk barang rotan sebelum dikirim."
+      },
+      {
+        "q": "Metode pembayaran apa saja yang tersedia?",
+        "a": "Kami menerima transfer bank dan pembayaran digital. Detail rekening akan dikirimkan setelah pesanan Anda dikonfirmasi lewat WhatsApp. Website ini tidak menerima pembayaran online."
+      },
+      {
+        "q": "Apakah perlu membayar uang muka untuk pesanan custom?",
+        "a": "Untuk pesanan custom, umumnya diperlukan DP sebagai tanda jadi sebelum produksi dimulai. Sisanya dibayarkan setelah produk selesai atau sebelum dikirim."
+      },
+      {
+        "q": "Bagaimana cara merawat furnitur rotan agar awet?",
+        "a": "Hindari paparan air dan sinar matahari langsung dalam waktu lama, bersihkan debu secara rutin dengan kain kering atau kuas lembut, dan letakkan di ruangan dengan sirkulasi udara baik."
+      },
+      {
+        "q": "Apakah rotan cocok diletakkan di luar ruangan?",
+        "a": "Rotan alami lebih cocok untuk area teras beratap atau ruangan semi-outdoor. Untuk penggunaan outdoor penuh, tanyakan pada kami mengenai pilihan finishing tahan cuaca."
+      },
+      {
+        "q": "Apakah bisa berkunjung langsung ke workshop?",
+        "a": "Tentu, kami menyambut kunjungan ke workshop di Kedung Malang, Kedung, Jepara, Jawa Tengah. Mohon hubungi kami dulu lewat WhatsApp untuk membuat janji temu."
+      },
+      {
+        "q": "Apakah menerima kerja sama reseller atau distributor?",
+        "a": "Kami terbuka untuk kerja sama reseller maupun distributor. Silakan hubungi kami untuk mendiskusikan skema harga dan ketersediaan wilayah."
       }
     ],
     "ctaTitle": "Siap merencanakan pengiriman?",
