@@ -14,6 +14,7 @@ import type { Locale, ProductCardData } from '@/types/domain';
 import { FavoriteButton } from './favorite-button';
 import { PriceTag } from './price-tag';
 import { ProductBadges } from './product-badges';
+import { preloadQuickView } from './quick-view-loader';
 import { useQuickView } from './use-quick-view';
 
 interface ProductCardProps {
@@ -107,6 +108,8 @@ export function ProductCard({ product, index = 0, priority = false, sizes }: Pro
         <button
           type="button"
           onClick={() => openQuickView(product.slug)}
+          onPointerEnter={preloadQuickView}
+          onFocus={preloadQuickView}
           aria-label={t('quickViewOf', { name })}
           className={cn(
             'absolute bottom-2 right-2 inline-flex size-11 items-center justify-center gap-2 rounded-full border-line bg-surface/95 text-[0.875rem] font-semibold text-ink transition-all duration-300',

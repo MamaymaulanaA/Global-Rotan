@@ -13,23 +13,12 @@ import { localized } from '@/lib/utils';
 import { useInquiry } from '@/stores/inquiry';
 import type { Locale, ProductDetail } from '@/types/domain';
 import { FavoriteButton } from './favorite-button';
+import { fetchProductDetail } from './product-detail-client';
 import { PriceTag } from './price-tag';
 import { ProductGallery } from './product-gallery';
 import { ProductOptions } from './product-options';
 import { useProductSelection } from './use-product-selection';
 import { useQuickView } from './use-quick-view';
-
-const cache = new Map<string, ProductDetail>();
-
-export async function fetchProductDetail(slug: string) {
-  const cached = cache.get(slug);
-  if (cached) return cached;
-  const res = await fetch(`/api/products/${encodeURIComponent(slug)}`);
-  if (!res.ok) throw new Error(String(res.status));
-  const data = (await res.json()).product as ProductDetail;
-  cache.set(slug, data);
-  return data;
-}
 
 export function QuickViewHost() {
   const slug = useQuickView((s) => s.slug);

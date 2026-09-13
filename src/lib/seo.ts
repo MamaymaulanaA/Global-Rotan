@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-import { localePath, siteUrl } from '@/lib/utils';
+import { isSvg, localePath, siteUrl } from '@/lib/utils';
+
+export const DEFAULT_OG_IMAGE = '/og-image.png';
 import type { Locale } from '@/types/domain';
 
 export function alternates(path: string, locale: Locale) {
@@ -29,7 +31,9 @@ export function pageMetadata({
   noIndex?: boolean;
 }): Metadata {
   const url = siteUrl(localePath(locale, path));
-  const ogImage = image ? (image.startsWith('http') ? image : siteUrl(image)) : siteUrl('/demo/site/og-default.svg');
+  // Social platforms ignore SVG previews, so SVG placeholders fall back to the generated PNG card.
+  const usable = image && !isSvg(image) ? image : null;
+  const ogImage = usable ? (usable.startsWith('http') ? usable : siteUrl(usable)) : siteUrl(DEFAULT_OG_IMAGE);
   return {
     title,
     description,

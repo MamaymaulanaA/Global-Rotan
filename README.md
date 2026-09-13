@@ -89,6 +89,15 @@ npm run build
 3. Choose a function region close to your Supabase region.
 4. Set `NEXT_PUBLIC_SITE_URL` to the production domain and update Supabase redirect URLs.
 
+### Performance & caching
+
+- Public catalog, collection, testimonial and settings reads are cached across requests (`src/lib/data/catalog.ts`, `settings.ts`, tags in `src/lib/data/cache.ts`). Pages stay dynamic for the currency cookie, but no longer wait on Supabase for every visit.
+- Every admin save expires the relevant cache tag immediately (`src/lib/admin/revalidate.ts`), so changes are visible on the next page load. Edits made directly in the Supabase dashboard appear within 10 minutes.
+- Free-text catalog searches always query live.
+- Quick View is loaded on first use; only translation namespaces used by client components are sent to the browser (`src/i18n/client-messages.ts` — add a namespace there when a new client component uses `useTranslations`).
+- Social previews use the generated PNG at `/og-image.png` (SVG images are skipped because Facebook, WhatsApp and X do not render them).
+- Because Supabase runs in `ap-southeast-2`, set the Vercel function region to Sydney (`syd1`) or Singapore (`sin1`).
+
 ## 6. Replacing demo content
 
 Everything marked **demo** must be replaced before launch:

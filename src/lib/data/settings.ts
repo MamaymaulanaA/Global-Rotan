@@ -1,7 +1,9 @@
 import 'server-only';
+import { unstable_cache } from 'next/cache';
 import { cache } from 'react';
 import { DEFAULT_SETTINGS, SETTINGS_KEYS } from '@/lib/settings/defaults';
 import { createPublicClient } from '@/lib/supabase/public';
+import { CACHE_TAGS, PUBLIC_REVALIDATE_SECONDS } from './cache';
 import type { SiteSettings } from '@/types/settings';
 
 function merge<T extends object>(base: T, override: unknown): T {
@@ -19,8 +21,9 @@ function merge<T extends object>(base: T, override: unknown): T {
   return result as T;
 }
 
-export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
-  try {
+const loadSiteSettings = unstable_cache(
+  async (): Promise<SiteSettings> => {
+    // Errors propagate (and are not cached) so the next request retries.
     const supabase = createPublicClient();
     const { data, error } = await supabase.from('site_settings').select('key, value').in('key', [...SETTINGS_KEYS]);
     if (error) throw error;
@@ -34,6 +37,14 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
     const rate = Number(result.localization.usd_to_idr);
     result.localization.usd_to_idr = Number.isFinite(rate) && rate > 0 ? rate : DEFAULT_SETTINGS.localization.usd_to_idr;
     return result;
+  },
+  ['settings:all'],
+  { tags: [CACHE_TAGS.settings], revalidate: PUBLIC_REVALIDATE_SECONDS },
+);
+
+export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
+  try {
+    return await loadSiteSettings();
   } catch (error) {
     console.error('[settings] falling back to defaults:', error instanceof Error ? error.message : error);
     return DEFAULT_SETTINGS;
@@ -41,12 +52,7 @@ export const getSiteSettings = cache(async (): Promise<SiteSettings> => {
 });
 
 /** Resolve an editable content field, falling back to the translation default. */
-export function contentValue(
-  fields: Record<string, unknown> | undefined,
-  key: string,
-  locale: string,
-  fallback: string,
-) {
+export function contentValue(fields: Record<string, unknown> | undefined, key: string, locale: string, fallback: string) {
   const value = fields?.[`${key}_${locale}`];
   return typeof value === 'string' && value.trim() ? value : fallback;
 }

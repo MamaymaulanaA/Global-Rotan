@@ -4,12 +4,14 @@ import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 import { dbErrorMessage, withAdmin, zodFieldErrors, type AdminResult } from '@/lib/admin/action';
 import { logActivity } from '@/lib/admin/auth';
+import { invalidatePublicData } from '@/lib/admin/revalidate';
 import { colorSchema, productSchema, sizeSchema, variantSchema, type ProductInput } from '@/lib/validation/admin';
 import { PRODUCT_STATUSES, type ProductStatus } from '@/types/domain';
 
 const uuid = z.string().uuid();
 
 function revalidateCatalog(productId?: string) {
+  invalidatePublicData('catalog');
   revalidatePath('/admin/products');
   if (productId) revalidatePath(`/admin/products/${productId}`);
   revalidatePath('/admin/variants');
@@ -138,6 +140,7 @@ export async function updateProductImage(id: string, patch: { alt_en?: string; a
     if (!uuid.safeParse(id).success || !parsed.success) return { ok: false, error: 'Invalid request' };
     const { error } = await admin.supabase.from('product_images').update(parsed.data).eq('id', id);
     if (error) return { ok: false, error: dbErrorMessage(error).error };
+    invalidatePublicData('catalog');
     return { ok: true, data: null, message: 'Image updated' };
   });
 }

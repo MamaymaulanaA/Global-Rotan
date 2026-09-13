@@ -18,6 +18,8 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   images: {
     formats: ['image/avif', 'image/webp'],
+    // Uploaded files get unique names, so optimized variants can be cached for a month.
+    minimumCacheTTL: 2678400,
     deviceSizes: [360, 480, 640, 768, 1024, 1280, 1536, 1920],
     imageSizes: [64, 96, 128, 200, 320],
     qualities: [70, 75, 85],
@@ -35,7 +37,13 @@ const nextConfig: NextConfig = {
     return [{ source: '/favicon.ico', destination: '/icon.svg' }];
   },
   async headers() {
-    return [{ source: '/:path*', headers: securityHeaders }];
+    const staticAsset = { key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' };
+    return [
+      { source: '/:path*', headers: securityHeaders },
+      // Public placeholder artwork and icons are not content-hashed: cache for a day, revalidate in the background.
+      { source: '/demo/:path*', headers: [staticAsset] },
+      { source: '/icon.svg', headers: [staticAsset] },
+    ];
   },
 };
 

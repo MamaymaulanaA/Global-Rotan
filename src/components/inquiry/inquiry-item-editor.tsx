@@ -5,7 +5,7 @@ import { useEffect, useId, useState } from 'react';
 import { toast } from 'sonner';
 import { ProductOptions } from '@/components/product/product-options';
 import { PriceTag } from '@/components/product/price-tag';
-import { fetchProductDetail } from '@/components/product/quick-view';
+import { fetchProductDetail } from '@/components/product/product-detail-client';
 import { useProductSelection } from '@/components/product/use-product-selection';
 import { Button } from '@/components/ui/button';
 import { Dialog } from '@/components/ui/dialog';

@@ -1,6 +1,7 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
+import { invalidatePublicData } from '@/lib/admin/revalidate';
 import { z } from 'zod';
 import { dbErrorMessage, withAdmin, type AdminResult } from '@/lib/admin/action';
 import { logActivity } from '@/lib/admin/auth';
@@ -83,6 +84,7 @@ export async function saveSettings(key: SettingsKey, value: unknown): Promise<Ad
       .upsert({ key, value: parsed.data, is_public: true, updated_by: admin.user.id }, { onConflict: 'key' });
     if (error) return { ok: false, error: dbErrorMessage(error).error };
     await logActivity(admin, 'update', 'settings', null, `Updated ${key} settings`);
+    invalidatePublicData('settings');
     revalidatePath('/', 'layout');
     return { ok: true, data: null, message: key === 'content' ? 'Content saved' : 'Settings saved' };
   });

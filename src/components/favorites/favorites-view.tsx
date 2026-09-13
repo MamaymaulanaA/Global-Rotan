@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { toast } from 'sonner';
 import { PriceTag } from '@/components/product/price-tag';
-import { fetchProductDetail } from '@/components/product/quick-view';
+import { fetchProductDetail } from '@/components/product/product-detail-client';
 import { Button, ButtonLink } from '@/components/ui/button';
 import { ConfirmDialog } from '@/components/ui/dialog';
 import { Badge, EmptyState, Notice } from '@/components/ui/misc';

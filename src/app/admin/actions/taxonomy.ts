@@ -1,6 +1,7 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
+import { invalidatePublicData } from '@/lib/admin/revalidate';
 import { z } from 'zod';
 import { dbErrorMessage, withAdmin, zodFieldErrors, type AdminResult } from '@/lib/admin/action';
 import { logActivity } from '@/lib/admin/auth';
@@ -28,6 +29,7 @@ export async function saveTaxonomy(table: Table, input: Record<string, unknown>)
     const rowId = (data as { id: string }).id;
     const name = (values.name_en ?? values.author_name) as string;
     await logActivity(admin, id ? 'update' : 'create', labels[table], rowId, `${id ? 'Updated' : 'Created'} ${labels[table]} “${name}”`);
+    invalidatePublicData('catalog');
     revalidatePath(`/admin/${table}`);
     return { ok: true, data: { id: rowId }, message: `${labels[table][0].toUpperCase()}${labels[table].slice(1)} saved` };
   });
@@ -46,6 +48,7 @@ export async function deleteTaxonomy(table: Table, id: string): Promise<AdminRes
     const { error } = await admin.supabase.from(table).delete().eq('id', id);
     if (error) return { ok: false, error: dbErrorMessage(error).error };
     await logActivity(admin, 'delete', labels[table], id, `Deleted a ${labels[table]}`);
+    invalidatePublicData('catalog');
     revalidatePath(`/admin/${table}`);
     return { ok: true, data: null, message: 'Deleted' };
   });

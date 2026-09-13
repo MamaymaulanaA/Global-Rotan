@@ -26,8 +26,16 @@ export function slugify(input: string) {
     .slice(0, 80);
 }
 
+function siteBase() {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  // On Vercel, fall back to the production domain (then the deployment URL) so canonical
+  // links, sitemap and Open Graph URLs never point at localhost when the variable is missing.
+  const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
+  return vercelHost ? `https://${vercelHost}` : 'http://localhost:3000';
+}
+
 export function siteUrl(path = '') {
-  const base = (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(/\/$/, '');
+  const base = siteBase().replace(/\/$/, '');
   return `${base}${path.startsWith('/') || path === '' ? path : `/${path}`}`;
 }
 
