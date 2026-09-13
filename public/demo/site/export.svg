@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4EDE2"/><stop offset="1" stop-color="#EBE1D2"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3D7C5"/><stop offset="1" stop-color="#D5C6AF"/>
+    </linearGradient>
+    <linearGradient id="wall2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDE2D1"/><stop offset="1" stop-color="#E2D4BF"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CDB999"/><stop offset="1" stop-color="#BBA482"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2B1D11" stop-opacity="0.28"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="teak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BE8F60"/><stop offset="1" stop-color="#6C4726"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE3B0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFE3B0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="cane" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#5E4127"/>
+      <g stroke="#C89B5E" stroke-width="3.2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="24" y2="24"/>
+        <line x1="24" y1="0" x2="0" y2="24"/>
+      </g>
+      <rect x="0" y="8.5" width="24" height="7" fill="#E4C28C"/>
+      <rect x="8.5" y="0" width="7" height="24" fill="#C89B5E"/>
+      <rect x="0" y="8.5" width="24" height="2" fill="#FFFFFF" opacity="0.18"/>
+    </pattern>
+    <pattern id="wicker" width="22" height="14" patternUnits="userSpaceOnUse">
+      <rect width="22" height="14" fill="#5E4127"/>
+      <rect x="1" y="1" width="20" height="5.2" rx="2.6" fill="#C89B5E"/>
+      <rect x="1" y="1" width="20" height="2" rx="1" fill="#E4C28C" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="5.2" rx="2.6" fill="#C89B5E"/>
+      <rect x="12" y="8" width="20" height="5.2" rx="2.6" fill="#C89B5E"/>
+      <rect x="12" y="8" width="20" height="2" rx="1" fill="#E4C28C" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="2" rx="1" fill="#E4C28C" opacity="0.7"/>
+    </pattern>
+    <pattern id="weave" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#9A6E3F"/>
+      <rect x="1" y="1" width="13" height="28" rx="3" fill="#C89B5E"/>
+      <rect x="16" y="1" width="13" height="13" rx="3" fill="#E4C28C"/>
+      <rect x="16" y="16" width="13" height="13" rx="3" fill="#C89B5E"/>
+      <rect x="1" y="1" width="13" height="4" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    </pattern>
+  </defs><rect width="1600" height="1000" fill="url(#wall2)"/>
+     <path d="M927.9999999999999 0 L1376 0 L1184 720 L672 720 Z" fill="#FFF8EC" opacity="0.32"/>
+     <rect x="0" y="720" width="1600" height="280" fill="url(#floor2)"/>
+     <line x1="0" y1="760" x2="1600" y2="760" stroke="#A88E6B" stroke-width="1.5" opacity="0.3"/><line x1="0" y1="810" x2="1600" y2="810" stroke="#A88E6B" stroke-width="1.5" opacity="0.3"/><line x1="0" y1="870" x2="1600" y2="870" stroke="#A88E6B" stroke-width="1.5" opacity="0.3"/><line x1="0" y1="940" x2="1600" y2="940" stroke="#A88E6B" stroke-width="1.5" opacity="0.3"/>
+     <ellipse cx="800" cy="830" rx="608" ry="80" fill="#EDE3D3" opacity="0.75"/>
+     
+        
+    <rect x="180" y="420" width="420" height="300" fill="#C9A878"/>
+    <line x1="180" y1="420" x2="600" y2="420" stroke="#9E7F55" stroke-width="3"/><line x1="180" y1="480" x2="600" y2="480" stroke="#9E7F55" stroke-width="3"/><line x1="180" y1="540" x2="600" y2="540" stroke="#9E7F55" stroke-width="3"/><line x1="180" y1="600" x2="600" y2="600" stroke="#9E7F55" stroke-width="3"/><line x1="180" y1="660" x2="600" y2="660" stroke="#9E7F55" stroke-width="3"/>
+    <rect x="180" y="420" width="420" height="300" fill="none" stroke="#8A6C45" stroke-width="10"/>
+    <line x1="180" y1="420" x2="600" y2="720" stroke="#8A6C45" stroke-width="10"/>
+    <rect x="640" y="520" width="300" height="200" fill="#C9A878"/>
+    <line x1="640" y1="520" x2="940" y2="520" stroke="#9E7F55" stroke-width="3"/><line x1="640" y1="560" x2="940" y2="560" stroke="#9E7F55" stroke-width="3"/><line x1="640" y1="600" x2="940" y2="600" stroke="#9E7F55" stroke-width="3"/><line x1="640" y1="640" x2="940" y2="640" stroke="#9E7F55" stroke-width="3"/><line x1="640" y1="680" x2="940" y2="680" stroke="#9E7F55" stroke-width="3"/>
+    <rect x="640" y="520" width="300" height="200" fill="none" stroke="#8A6C45" stroke-width="10"/>
+    <line x1="640" y1="520" x2="940" y2="720" stroke="#8A6C45" stroke-width="10"/>
+    <rect x="260" y="250" width="260" height="170" fill="#C9A878"/>
+    <line x1="260" y1="250" x2="520" y2="250" stroke="#9E7F55" stroke-width="3"/><line x1="260" y1="284" x2="520" y2="284" stroke="#9E7F55" stroke-width="3"/><line x1="260" y1="318" x2="520" y2="318" stroke="#9E7F55" stroke-width="3"/><line x1="260" y1="352" x2="520" y2="352" stroke="#9E7F55" stroke-width="3"/><line x1="260" y1="386" x2="520" y2="386" stroke="#9E7F55" stroke-width="3"/>
+    <rect x="260" y="250" width="260" height="170" fill="none" stroke="#8A6C45" stroke-width="10"/>
+    <line x1="260" y1="250" x2="520" y2="420" stroke="#8A6C45" stroke-width="10"/>
+        <g transform="translate(900 90) scale(0.9)">
+    <ellipse cx="400" cy="792" rx="250" ry="26" fill="#3B2A1A" opacity="0.22" filter="url(#soft)"/>
+    
+  <path d="M292 620 L300 760" fill="none" stroke="#9A6E3F" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M292 620 L300 760" fill="none" stroke="#C89B5E" stroke-width="9.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M292 620 L300 760" fill="none" stroke="#E4C28C" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.8200000000000003 -1.8200000000000003)" opacity="0.8"/>
+  <path d="M508 620 L500 760" fill="none" stroke="#9A6E3F" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M508 620 L500 760" fill="none" stroke="#C89B5E" stroke-width="9.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M508 620 L500 760" fill="none" stroke="#E4C28C" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.8200000000000003 -1.8200000000000003)" opacity="0.8"/>
+    
+  <path d="M258 470 C258 330 542 330 542 470 L542 600 L258 600 Z" fill="url(#cane)"/>
+  <path d="M258 470 C258 330 542 330 542 470 L542 600 L258 600 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M258 470 C258 330 542 330 542 470 L542 600 L258 600 Z" fill="none" stroke="#9A6E3F" stroke-width="2" opacity="0.35"/>
+    
+  <path d="M258 600 L258 470 C258 330 542 330 542 470 L542 600" fill="none" stroke="#9A6E3F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 600 L258 470 C258 330 542 330 542 470 L542 600" fill="none" stroke="#C89B5E" stroke-width="11.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 600 L258 470 C258 330 542 330 542 470 L542 600" fill="none" stroke="#E4C28C" stroke-width="3.52" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.24 -2.24)" opacity="0.8"/>
+    
+  <path d="M232 612 L568 612 L580 676 L220 676 Z" fill="url(#wicker)"/>
+  <path d="M232 612 L568 612 L580 676 L220 676 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M232 612 L568 612 L580 676 L220 676 Z" fill="none" stroke="#9A6E3F" stroke-width="2" opacity="0.35"/>
+    
+  <rect x="214" y="562" width="372" height="72" rx="26" fill="#E8E0D2"/>
+  <rect x="214" y="562" width="372" height="72" rx="26" fill="url(#sheen)"/>
+  <rect x="220" y="624" width="360" height="6" rx="3" fill="#000" opacity="0.06"/>
+    
+  <path d="M206 700 C186 560 214 486 262 478" fill="none" stroke="#9A6E3F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M206 700 C186 560 214 486 262 478" fill="none" stroke="#C89B5E" stroke-width="11.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M206 700 C186 560 214 486 262 478" fill="none" stroke="#E4C28C" stroke-width="3.52" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.24 -2.24)" opacity="0.8"/>
+  <path d="M594 700 C614 560 586 486 538 478" fill="none" stroke="#9A6E3F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M594 700 C614 560 586 486 538 478" fill="none" stroke="#C89B5E" stroke-width="11.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M594 700 C614 560 586 486 538 478" fill="none" stroke="#E4C28C" stroke-width="3.52" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.24 -2.24)" opacity="0.8"/>
+    
+  <path d="M226 676 L208 792" fill="none" stroke="#9A6E3F" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M226 676 L208 792" fill="none" stroke="#C89B5E" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M226 676 L208 792" fill="none" stroke="#E4C28C" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.1 -2.1)" opacity="0.8"/>
+  <path d="M574 676 L592 792" fill="none" stroke="#9A6E3F" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M574 676 L592 792" fill="none" stroke="#C89B5E" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M574 676 L592 792" fill="none" stroke="#E4C28C" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.1 -2.1)" opacity="0.8"/>
+    
+  <path d="M220 680 L580 680" fill="none" stroke="#9A6E3F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 680 L580 680" fill="none" stroke="#C89B5E" stroke-width="8.399999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 680 L580 680" fill="none" stroke="#E4C28C" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.6800000000000002 -1.6800000000000002)" opacity="0.8"/>
+    
+  <g transform="translate(250 486) rotate(-40)" stroke="#9A6E3F" stroke-width="2.2" stroke-linecap="round">
+    <line x1="-10" y1="-6" x2="10" y2="-4"/><line x1="-10" y1="-1" x2="10" y2="1"/><line x1="-10" y1="4" x2="10" y2="6"/>
+  </g>
+  <g transform="translate(550 486) rotate(40)" stroke="#9A6E3F" stroke-width="2.2" stroke-linecap="round">
+    <line x1="-10" y1="-6" x2="10" y2="-4"/><line x1="-10" y1="-1" x2="10" y2="1"/><line x1="-10" y1="4" x2="10" y2="6"/>
+  </g>
+  <g transform="translate(224 680) rotate(90)" stroke="#9A6E3F" stroke-width="2.2" stroke-linecap="round">
+    <line x1="-9" y1="-6" x2="9" y2="-4"/><line x1="-9" y1="-1" x2="9" y2="1"/><line x1="-9" y1="4" x2="9" y2="6"/>
+  </g>
+  <g transform="translate(576 680) rotate(90)" stroke="#9A6E3F" stroke-width="2.2" stroke-linecap="round">
+    <line x1="-9" y1="-6" x2="9" y2="-4"/><line x1="-9" y1="-1" x2="9" y2="1"/><line x1="-9" y1="4" x2="9" y2="6"/>
+  </g>
+    
+  <rect x="330" y="480" width="140" height="92" rx="30" fill="#F2ECE1"/>
+  <rect x="330" y="480" width="140" height="92" rx="30" fill="url(#sheen)"/>
+  <rect x="336" y="562" width="128" height="6" rx="3" fill="#000" opacity="0.06"/></g>
+     <text x="1572" y="974" text-anchor="end" font-family="Arial, sans-serif" font-size="16" letter-spacing="2" fill="#FFFFFF" opacity="0.75">DEMO IMAGE</text></svg>

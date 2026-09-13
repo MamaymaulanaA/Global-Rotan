@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 195 680 850" width="800" height="1000" role="img">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4EDE2"/><stop offset="1" stop-color="#EBE1D2"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3D7C5"/><stop offset="1" stop-color="#D5C6AF"/>
+    </linearGradient>
+    <linearGradient id="wall2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDE2D1"/><stop offset="1" stop-color="#E2D4BF"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CDB999"/><stop offset="1" stop-color="#BBA482"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2B1D11" stop-opacity="0.28"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="teak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BE8F60"/><stop offset="1" stop-color="#6C4726"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE3B0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFE3B0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="cane" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#2B1D11"/>
+      <g stroke="#7E5636" stroke-width="3.2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="24" y2="24"/>
+        <line x1="24" y1="0" x2="0" y2="24"/>
+      </g>
+      <rect x="0" y="8.5" width="24" height="7" fill="#A67B52"/>
+      <rect x="8.5" y="0" width="7" height="24" fill="#7E5636"/>
+      <rect x="0" y="8.5" width="24" height="2" fill="#FFFFFF" opacity="0.18"/>
+    </pattern>
+    <pattern id="wicker" width="22" height="14" patternUnits="userSpaceOnUse">
+      <rect width="22" height="14" fill="#2B1D11"/>
+      <rect x="1" y="1" width="20" height="5.2" rx="2.6" fill="#7E5636"/>
+      <rect x="1" y="1" width="20" height="2" rx="1" fill="#A67B52" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="5.2" rx="2.6" fill="#7E5636"/>
+      <rect x="12" y="8" width="20" height="5.2" rx="2.6" fill="#7E5636"/>
+      <rect x="12" y="8" width="20" height="2" rx="1" fill="#A67B52" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="2" rx="1" fill="#A67B52" opacity="0.7"/>
+    </pattern>
+    <pattern id="weave" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#553821"/>
+      <rect x="1" y="1" width="13" height="28" rx="3" fill="#7E5636"/>
+      <rect x="16" y="1" width="13" height="13" rx="3" fill="#A67B52"/>
+      <rect x="16" y="16" width="13" height="13" rx="3" fill="#7E5636"/>
+      <rect x="1" y="1" width="13" height="4" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    </pattern>
+  </defs><rect x="-100" y="-100" width="1000" height="1300" fill="url(#wall)"/>
+     <path d="M-100 700 Q400 690 900 700 L900 1200 L-100 1200 Z" fill="url(#floor)"/>
+     <rect width="800" height="1000" fill="url(#light)"/>
+     <g>
+    <ellipse cx="400" cy="794" rx="240" ry="26" fill="#3B2A1A" opacity="0.22" filter="url(#soft)"/>
+    
+  <path d="M262 740 L250 792" fill="none" stroke="#553821" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M262 740 L250 792" fill="none" stroke="#7E5636" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M262 740 L250 792" fill="none" stroke="#A67B52" stroke-width="3.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.9600000000000002 -1.9600000000000002)" opacity="0.8"/>
+  <path d="M538 740 L550 792" fill="none" stroke="#553821" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M538 740 L550 792" fill="none" stroke="#7E5636" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M538 740 L550 792" fill="none" stroke="#A67B52" stroke-width="3.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.9600000000000002 -1.9600000000000002)" opacity="0.8"/>
+    
+  <path d="M232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740 L232 740 Z" fill="url(#weave)"/>
+  <path d="M232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740 L232 740 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740 L232 740 Z" fill="none" stroke="#553821" stroke-width="2" opacity="0.35"/>
+    
+  <path d="M232 740 L232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740" fill="none" stroke="#553821" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M232 740 L232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740" fill="none" stroke="#7E5636" stroke-width="11.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M232 740 L232 360 Q232 250 330 240 L470 240 Q568 250 568 360 L568 740" fill="none" stroke="#A67B52" stroke-width="3.52" stroke-linecap="round" stroke-linejoin="round" transform="translate(-2.24 -2.24)" opacity="0.8"/>
+    
+  <path d="M196 520 Q196 470 240 470 L286 470 L286 740 L196 740 Z" fill="url(#wicker)"/>
+  <path d="M196 520 Q196 470 240 470 L286 470 L286 740 L196 740 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M196 520 Q196 470 240 470 L286 470 L286 740 L196 740 Z" fill="none" stroke="#553821" stroke-width="2" opacity="0.35"/>
+    
+  <path d="M604 520 Q604 470 560 470 L514 470 L514 740 L604 740 Z" fill="url(#wicker)"/>
+  <path d="M604 520 Q604 470 560 470 L514 470 L514 740 L604 740 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M604 520 Q604 470 560 470 L514 470 L514 740 L604 740 Z" fill="none" stroke="#553821" stroke-width="2" opacity="0.35"/>
+    
+  <rect x="282" y="300" width="236" height="280" rx="36" fill="#C68B6E"/>
+  <rect x="282" y="300" width="236" height="280" rx="36" fill="url(#sheen)"/>
+  <rect x="288" y="570" width="224" height="6" rx="3" fill="#000" opacity="0.06"/>
+    
+  <rect x="270" y="572" width="260" height="96" rx="28" fill="#C68B6E"/>
+  <rect x="270" y="572" width="260" height="96" rx="28" fill="url(#sheen)"/>
+  <rect x="276" y="658" width="248" height="6" rx="3" fill="#000" opacity="0.06"/>
+    
+  <path d="M196 740 L604 740" fill="none" stroke="#553821" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M196 740 L604 740" fill="none" stroke="#7E5636" stroke-width="9.799999999999999" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M196 740 L604 740" fill="none" stroke="#A67B52" stroke-width="3.08" stroke-linecap="round" stroke-linejoin="round" transform="translate(-1.9600000000000002 -1.9600000000000002)" opacity="0.8"/></g>
+     <text x="712" y="1004" text-anchor="end" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#8C7B64" opacity="0.7">DEMO IMAGE</text></svg>

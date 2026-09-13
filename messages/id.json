@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "siteTitle": "Global Rotan — Furnitur Rotan Indonesia",
+    "siteDescription": "Furnitur rotan buatan tangan dari Indonesia untuk hunian, hotel, restoran, retailer, dan proyek internasional. Jelajahi katalog dan minta penawaran harga.",
+    "products": "Katalog Furnitur Rotan",
+    "productsDescription": "Jelajahi kursi, sofa, meja, set makan, furnitur outdoor, dan aksesori dari rotan alami maupun sintetis.",
+    "collections": "Koleksi",
+    "collectionsDescription": "Koleksi furnitur rotan pilihan yang dirancang di Indonesia untuk hunian dan hospitality.",
+    "about": "Tentang Kami",
+    "aboutDescription": "Global Rotan menyediakan furnitur rotan buatan tangan Indonesia untuk pelanggan dalam dan luar negeri.",
+    "custom": "Furnitur Rotan Custom",
+    "customDescription": "Furnitur rotan custom untuk hotel, restoran, vila, retailer, dan proyek interior — sesuai ukuran, finishing, dan kain pilihan Anda.",
+    "export": "Informasi Ekspor",
+    "exportDescription": "Cara Global Rotan menangani minimum order, pengemasan, dokumen, dan pengiriman internasional furnitur rotan.",
+    "shipping": "Informasi Pengiriman & Ekspor",
+    "shippingDescription": "Metode pengiriman, pengemasan, waktu produksi, dan dokumen ekspor untuk pesanan Global Rotan.",
+    "contact": "Kontak",
+    "contactDescription": "Hubungi Global Rotan untuk pertanyaan produk, proyek, furnitur custom, atau pesanan ekspor.",
+    "favorites": "Favorit",
+    "inquiry": "Daftar Permintaan",
+    "quote": "Minta Penawaran",
+    "quoteDescription": "Kirim daftar produk dan detail proyek Anda untuk mendapatkan penawaran harga dari Global Rotan.",
+    "success": "Permintaan Diterima",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat dan Ketentuan"
+  },
+  "common": {
+    "brand": "Global Rotan",
+    "demo": "Demo",
+    "demoContent": "Konten demo",
+    "close": "Tutup",
+    "menu": "Menu",
+    "search": "Cari",
+    "loading": "Memuat…",
+    "retry": "Coba lagi",
+    "backToHome": "Kembali ke Beranda",
+    "learnMore": "Selengkapnya",
+    "viewAll": "Lihat semua",
+    "required": "Wajib",
+    "optional": "Opsional",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "remove": "Hapus",
+    "edit": "Ubah",
+    "done": "Selesai",
+    "share": "Bagikan",
+    "copyLink": "Salin tautan",
+    "linkCopied": "Tautan disalin",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "skipToContent": "Langsung ke konten",
+    "all": "Semua",
+    "clear": "Hapus",
+    "apply": "Terapkan",
+    "pcs": "pcs",
+    "sku": "SKU",
+    "or": "atau",
+    "breadcrumb": "Navigasi halaman",
+    "home": "Beranda"
+  },
+  "nav": {
+    "home": "Beranda",
+    "products": "Produk",
+    "collections": "Koleksi",
+    "about": "Tentang Kami",
+    "customExport": "Custom & Ekspor",
+    "customFurniture": "Furnitur Custom",
+    "customFurnitureDesc": "Sesuai ukuran, finishing, dan kain pilihan Anda",
+    "exportInfo": "Informasi Ekspor",
+    "exportInfoDesc": "Minimum order, pengemasan, dokumen, dan pengiriman",
+    "contact": "Kontak",
+    "favorites": "Favorit",
+    "inquiryCart": "Daftar Permintaan",
+    "requestQuote": "Minta Penawaran",
+    "mainNavigation": "Navigasi utama"
+  },
+  "header": {
+    "searchPlaceholder": "Cari produk atau SKU",
+    "language": "Bahasa",
+    "currency": "Mata uang",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "favoritesLabel": "Favorit, {count, plural, =0 {belum ada produk tersimpan} other {# produk tersimpan}}",
+    "cartLabel": "Daftar permintaan, {count, plural, =0 {kosong} other {# produk}}",
+    "languageSwitched": "Bahasa diubah ke Bahasa Indonesia",
+    "preferences": "Preferensi"
+  },
+  "search": {
+    "title": "Cari di katalog",
+    "placeholder": "Cari nama produk, SKU, atau kata kunci",
+    "submit": "Cari",
+    "hint": "Coba “kursi santai”, “outdoor”, atau SKU seperti GR-CH-001",
+    "popular": "Jelajahi kategori"
+  },
+  "footer": {
+    "description": "Furnitur rotan buatan tangan dari Indonesia untuk hunian, hospitality, dan proyek internasional.",
+    "navigation": "Navigasi",
+    "categories": "Kategori",
+    "contact": "Kontak",
+    "legal": "Informasi",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat dan Ketentuan",
+    "shipping": "Informasi Pengiriman & Ekspor",
+    "rights": "© {year} Global Rotan. Hak cipta dilindungi.",
+    "preferences": "Bahasa & mata uang",
+    "hours": "Jam operasional",
+    "follow": "Ikuti kami",
+    "demoNotice": "Detail kontak yang ditampilkan adalah contoh (demo) dan dapat diubah melalui dashboard admin.",
+    "noPayment": "Layanan katalog dan penawaran — website ini tidak memproses pembayaran online."
+  },
+  "price": {
+    "starting_from": "Mulai dari",
+    "estimated": "Estimasi harga",
+    "fixed": "Harga",
+    "contact": "Hubungi untuk Harga",
+    "wholesale_request": "Harga Grosir atas Permintaan",
+    "perPiece": "per unit",
+    "disclaimer": "Harga final dapat berubah berdasarkan jumlah pesanan, ukuran, warna, material, desain custom, minimum order, kemasan, negara tujuan, pajak, dan biaya pengiriman."
+  },
+  "availability": {
+    "ready_stock": "Stok Tersedia",
+    "made_to_order": "Dibuat Sesuai Pesanan",
+    "available": "Tersedia",
+    "unavailable": "Tidak tersedia",
+    "leadTimeRange": "{min}–{max} minggu",
+    "leadTimeSingle": "{weeks} minggu",
+    "leadTimeOnRequest": "Dikonfirmasi saat penawaran"
+  },
+  "badges": {
+    "new": "Baru",
+    "featured": "Unggulan",
+    "best_seller": "Terlaris",
+    "ready_stock": "Stok Tersedia",
+    "made_to_order": "Sesuai Pesanan"
+  },
+  "usage": {
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "both": "Indoor & Outdoor"
+  },
+  "materials": {
+    "natural_rattan": "Rotan alami",
+    "synthetic_rattan": "Rotan sintetis PE",
+    "rattan_cane": "Anyaman rotan (cane)",
+    "teak_wood": "Kayu jati",
+    "mahogany_wood": "Kayu mahoni",
+    "aluminium": "Rangka aluminium",
+    "powder_coated_steel": "Besi powder coating",
+    "seagrass": "Seagrass",
+    "water_hyacinth": "Eceng gondok",
+    "fabric_cushion": "Bantalan kain"
+  },
+  "colorFamilies": {
+    "natural": "Natural",
+    "honey": "Madu",
+    "brown": "Cokelat",
+    "black": "Hitam",
+    "white": "Putih",
+    "grey": "Abu-abu",
+    "green": "Hijau",
+    "blue": "Biru",
+    "other": "Lainnya"
+  },
+  "customerTypes": {
+    "individual": "Perorangan",
+    "retailer": "Retailer",
+    "distributor": "Distributor",
+    "interior_designer": "Desainer Interior",
+    "architect": "Arsitek",
+    "hotel_restaurant": "Hotel atau Restoran",
+    "project_owner": "Pemilik Proyek",
+    "other": "Lainnya"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Furnitur Rotan Indonesia",
+      "title": "Dibuat di Indonesia, untuk Dunia",
+      "description": "Furnitur rotan anyaman tangan untuk rumah, hotel, restoran, retailer, dan proyek internasional — tersedia dari stok atau dibuat sesuai spesifikasi Anda.",
+      "primaryCta": "Lihat Produk",
+      "secondaryCta": "Minta Penawaran",
+      "imageAlt": "Kursi santai rotan dengan meja samping anyaman dan lampu gantung di interior yang hangat dan terang"
+    },
+    "categories": {
+      "eyebrow": "Belanja per kategori",
+      "title": "Furnitur untuk setiap ruang",
+      "description": "Dari ruang makan hingga teras tepi kolam, temukan furnitur rotan berdasarkan fungsinya.",
+      "productCount": "{count, plural, =0 {Segera hadir} other {# produk}}",
+      "viewCategory": "Lihat {name}"
+    },
+    "intro": {
+      "eyebrow": "Tentang Global Rotan",
+      "title": "Furnitur rotan dari material jujur dan pengerjaan yang teliti",
+      "body": "Global Rotan bekerja sama dengan perajin Indonesia untuk menghasilkan furnitur rotan yang nyaman, awet, dan indah secara sederhana. Kami melayani pemilik rumah, retailer, dan proyek hospitality — di Indonesia maupun mancanegara.",
+      "points": {
+        "materials": {
+          "title": "Material pilihan",
+          "text": "Rotan alami, anyaman cane, dan serat sintetis tahan cuaca, dipilih sesuai kebutuhan."
+        },
+        "process": {
+          "title": "Proses buatan tangan",
+          "text": "Rangka dibentuk, diikat, dan dianyam dengan tangan, lalu difinishing dan diperiksa satu per satu."
+        },
+        "custom": {
+          "title": "Siap custom",
+          "text": "Ukuran, warna, finishing, dan kain dapat disesuaikan dengan koleksi atau proyek Anda."
+        },
+        "global": {
+          "title": "Layanan internasional",
+          "text": "Penawaran yang jelas, kemasan ekspor, dan koordinasi pengiriman untuk pembeli luar negeri."
+        }
+      },
+      "cta": "Tentang kami"
+    },
+    "featured": {
+      "eyebrow": "Produk pilihan",
+      "title": "Produk yang sering ditanyakan",
+      "description": "Pilihan kursi, sofa, meja, dan aksesori dari katalog kami saat ini.",
+      "viewAll": "Lihat semua produk"
+    },
+    "why": {
+      "eyebrow": "Mengapa Global Rotan",
+      "title": "Mitra yang dapat diandalkan, dari sampel hingga pengiriman",
+      "items": {
+        "craftsmanship": {
+          "title": "Keahlian Perajin Indonesia",
+          "text": "Teknik rotan tradisional yang disempurnakan untuk interior masa kini."
+        },
+        "materials": {
+          "title": "Material Alami",
+          "text": "Rotan terbarukan dan kayu pilihan, difinishing untuk pemakaian sehari-hari."
+        },
+        "custom": {
+          "title": "Desain Custom",
+          "text": "Ukuran, pola anyaman, warna, dan kain sesuai kebutuhan Anda."
+        },
+        "export": {
+          "title": "Dukungan Ekspor ke Seluruh Dunia",
+          "text": "Kemasan ekspor, dokumen, dan koordinasi pengiriman kami bantu urus bersama Anda."
+        }
+      }
+    },
+    "project": {
+      "eyebrow": "Pesanan custom & proyek",
+      "title": "Melengkapi hotel, restoran, vila, dan koleksi retail",
+      "description": "Kirimkan denah, mood board, atau daftar produk Anda. Kami akan merekomendasikan produk yang sesuai, menyiapkan sampel bila diperlukan, dan memberi penawaran sesuai jumlah dan tujuan pengiriman.",
+      "audiences": {
+        "hotels": "Hotel & resor",
+        "restaurants": "Restoran & kafe",
+        "villas": "Vila & hunian",
+        "retailers": "Retailer & distributor",
+        "designers": "Desainer interior & arsitek",
+        "contractors": "Kontraktor & pemilik proyek"
+      },
+      "primaryCta": "Diskusikan Proyek Anda",
+      "secondaryCta": "Pesan Furnitur Custom"
+    },
+    "process": {
+      "eyebrow": "Proses pengerjaan",
+      "title": "Bagaimana setiap produk dibuat",
+      "description": "Setiap pesanan melalui tahapan yang sama telitinya, baik satu kursi santai maupun perlengkapan satu hotel.",
+      "steps": {
+        "selection": {
+          "title": "Pemilihan Material",
+          "text": "Batang dan serat rotan dipilah berdasarkan diameter, kekuatan, dan warna."
+        },
+        "handcrafting": {
+          "title": "Pengerjaan Tangan",
+          "text": "Rangka dibentuk dengan uap dan diikat, lalu dianyam oleh perajin berpengalaman."
+        },
+        "qc": {
+          "title": "Kontrol Kualitas",
+          "text": "Sambungan, kerapatan anyaman, finishing, dan ukuran diperiksa sebelum dikemas."
+        },
+        "packing": {
+          "title": "Pengemasan",
+          "text": "Produk dibungkus dan dilindungi untuk perjalanan jarak jauh."
+        },
+        "shipping": {
+          "title": "Pengiriman ke Seluruh Dunia",
+          "text": "Kami mengoordinasikan pengiriman dan dokumen hingga tujuan."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Testimoni",
+      "title": "Kata pelanggan",
+      "demoNote": "Contoh testimoni untuk pratinjau tampilan. Ganti dengan ulasan asli melalui dashboard admin.",
+      "clientsTitle": "Dipercaya oleh",
+      "clientPlaceholder": "Logo klien",
+      "clientsDemoNote": "Logo placeholder — tambahkan klien asli (dengan izin) melalui dashboard admin."
+    },
+    "cta": {
+      "title": "Sedang merencanakan koleksi atau proyek?",
+      "description": "Kirimkan daftar produk dan jumlahnya. Kami akan membalas dengan penawaran yang jelas, waktu produksi, dan pilihan pengiriman.",
+      "primary": "Minta Penawaran",
+      "secondary": "Hubungi Kami"
+    }
+  },
+  "catalog": {
+    "eyebrow": "Katalog",
+    "title": "Katalog Furnitur Rotan",
+    "description": "Saring berdasarkan kategori, material, warna, dan ketersediaan. Simpan favorit atau tambahkan produk ke daftar permintaan untuk meminta penawaran.",
+    "searchLabel": "Cari produk",
+    "searchPlaceholder": "Cari nama, SKU, atau kata kunci",
+    "filters": "Filter",
+    "showFilters": "Tampilkan filter",
+    "category": "Kategori",
+    "collection": "Koleksi",
+    "priceRange": "Kisaran harga",
+    "material": "Material",
+    "color": "Warna",
+    "usage": "Indoor / Outdoor",
+    "availability": "Ketersediaan",
+    "sortBy": "Urutkan",
+    "sort": {
+      "featured": "Unggulan",
+      "newest": "Terbaru",
+      "name": "Nama (A–Z)",
+      "price_asc": "Harga: Terendah",
+      "price_desc": "Harga: Tertinggi"
+    },
+    "results": "{count, plural, =0 {Produk tidak ditemukan} other {# produk ditemukan}}",
+    "resultsFor": "untuk “{q}”",
+    "reset": "Reset filter",
+    "showResults": "Tampilkan hasil",
+    "gridView": "Tata letak grid",
+    "gridComfortable": "Gambar lebih besar",
+    "gridCompact": "Lebih banyak produk per baris",
+    "emptyTitle": "Tidak ada produk yang sesuai",
+    "emptyText": "Coba hapus salah satu filter atau gunakan kata kunci lain. Anda juga bisa menanyakan produk custom kepada kami.",
+    "emptyCta": "Tanyakan furnitur custom",
+    "errorTitle": "Katalog gagal dimuat",
+    "errorText": "Periksa koneksi Anda, lalu coba lagi.",
+    "loading": "Memuat produk…",
+    "pagination": "Navigasi halaman",
+    "page": "Halaman {page} dari {total}",
+    "goToPage": "Ke halaman {page}",
+    "activeFilters": "Filter aktif",
+    "removeFilter": "Hapus filter: {label}",
+    "priceUnder": "Di bawah {max}",
+    "priceBetween": "{min} – {max}",
+    "priceOver": "{min} ke atas"
+  },
+  "product": {
+    "viewDetails": "Lihat Detail",
+    "quickView": "Lihat Cepat",
+    "quickViewOf": "Lihat cepat {name}",
+    "addToInquiry": "Tambahkan ke Permintaan",
+    "addToInquiryShort": "Tambah ke Daftar",
+    "updateInquiry": "Perbarui Permintaan",
+    "addedToInquiry": "Ditambahkan ke daftar permintaan",
+    "updatedInquiry": "Daftar permintaan diperbarui",
+    "viewInquiry": "Lihat daftar",
+    "inInquiry": "Ada di daftar permintaan",
+    "addFavorite": "Simpan ke favorit",
+    "removeFavorite": "Hapus dari favorit",
+    "favoriteAdded": "Disimpan ke favorit",
+    "favoriteRemoved": "Dihapus dari favorit",
+    "askAbout": "Tanyakan Produk Ini",
+    "whatsapp": "Hubungi melalui WhatsApp",
+    "share": "Bagikan produk",
+    "sku": "SKU",
+    "category": "Kategori",
+    "collection": "Koleksi",
+    "color": "Warna",
+    "size": "Ukuran",
+    "finishing": "Material / finishing",
+    "quantity": "Jumlah",
+    "decrease": "Kurangi jumlah",
+    "increase": "Tambah jumlah",
+    "minimumOrder": "Minimum order",
+    "moqValue": "{count} unit",
+    "belowMoq": "Minimum order untuk produk ini adalah {count} unit.",
+    "status": "Ketersediaan",
+    "leadTime": "Waktu produksi",
+    "selectOption": "Pilih salah satu",
+    "unavailableCombo": "Tidak tersedia untuk kombinasi ini",
+    "variantUnavailable": "Kombinasi ini sedang tidak tersedia. Silakan pilih opsi lain.",
+    "priceAdjustment": "+{amount}",
+    "indicativeNote": "Harga indikatif per unit. Harga final dikonfirmasi dalam penawaran.",
+    "tabs": {
+      "description": "Deskripsi",
+      "specifications": "Spesifikasi",
+      "dimensions": "Dimensi",
+      "materials": "Material",
+      "care": "Cara Perawatan",
+      "customization": "Kustomisasi",
+      "shipping": "Pengiriman & Ekspor"
+    },
+    "spec": {
+      "sku": "SKU",
+      "category": "Kategori",
+      "collection": "Koleksi",
+      "materials": "Material",
+      "finishing": "Finishing",
+      "usage": "Penggunaan",
+      "dimensions": "Dimensi keseluruhan (P × L × T)",
+      "seatHeight": "Tinggi dudukan",
+      "weight": "Berat",
+      "moq": "Minimum order",
+      "leadTime": "Waktu produksi",
+      "availability": "Ketersediaan"
+    },
+    "sizeTable": "Ukuran tersedia",
+    "sizeName": "Ukuran",
+    "inCm": "Sentimeter",
+    "inInch": "Inci",
+    "dimensionNote": "Ukuran bersifat perkiraan; produk buatan tangan dapat berbeda ±1–2 cm.",
+    "careDefault": "Bersihkan debu secara rutin dengan kuas lembut atau kain kering. Jauhkan rotan alami dari sinar matahari langsung yang lama, hujan, dan sumber panas. Segera lap tumpahan dengan kain sedikit lembap, lalu keringkan di tempat teduh. Rotan sintetis dapat dibersihkan dengan air sabun lembut.",
+    "customizationDefault": "Sebagian besar produk dapat disesuaikan ukuran, pola anyaman, warna, finishing, dan kain pelapisnya. Permintaan custom dapat memengaruhi minimum order dan waktu produksi. Sampaikan kebutuhan Anda saat mengirim permintaan.",
+    "shippingDefault": "Produk dilindungi foam, kardus, dan plastik untuk pengiriman ekspor. Kami dapat mengatur pengiriman gabungan (LCL) maupun kontainer penuh (20ft/40ft) dan berkoordinasi dengan forwarder Anda. Ongkos kirim, bea masuk, dan pajak dihitung terpisah sesuai negara tujuan.",
+    "related": "Mungkin Anda juga suka",
+    "recentlyViewed": "Terakhir dilihat",
+    "gallery": "Foto produk",
+    "openImage": "Buka foto {index} dalam layar penuh",
+    "showImage": "Tampilkan foto {index}",
+    "previousImage": "Foto sebelumnya",
+    "nextImage": "Foto berikutnya",
+    "imageCounter": "Foto {index} dari {total}",
+    "noImage": "Foto segera tersedia",
+    "fullDetails": "Lihat Detail Lengkap",
+    "shareText": "Lihat {name} dari Global Rotan",
+    "notFound": "Produk ini tidak tersedia.",
+    "whatsappFallback": "Belum dipilih"
+  },
+  "quickView": {
+    "loading": "Memuat produk…",
+    "error": "Produk gagal dimuat. Silakan coba lagi."
+  },
+  "favorites": {
+    "title": "Favorit",
+    "description": "Produk yang Anda simpan di perangkat ini. Pindahkan ke daftar permintaan saat Anda siap meminta penawaran.",
+    "count": "{count, plural, =0 {Belum ada produk tersimpan} other {# produk tersimpan}}",
+    "emptyTitle": "Belum ada produk yang disimpan",
+    "emptyText": "Ketuk ikon hati pada produk untuk menyimpannya di sini.",
+    "browse": "Lihat Produk",
+    "moveToInquiry": "Pindahkan ke Permintaan",
+    "movedToInquiry": "Dipindahkan ke daftar permintaan",
+    "remove": "Hapus",
+    "unavailable": "Beberapa produk tersimpan sudah tidak tersedia dan disembunyikan.",
+    "clearAll": "Hapus semua",
+    "clearConfirm": "Hapus semua produk tersimpan?"
+  },
+  "inquiry": {
+    "title": "Daftar Permintaan",
+    "description": "Kumpulkan produk yang ingin Anda tanyakan, lalu kirim dalam satu permintaan penawaran. Ini bukan halaman pembayaran.",
+    "emptyTitle": "Daftar permintaan Anda masih kosong",
+    "emptyText": "Tambahkan produk dari katalog untuk menanyakan harga, waktu produksi, dan pilihan pengiriman.",
+    "browse": "Lihat Produk",
+    "itemsCount": "{count} produk",
+    "color": "Warna",
+    "size": "Ukuran",
+    "finishing": "Finishing",
+    "quantity": "Jumlah",
+    "notes": "Catatan custom",
+    "notesPlaceholder": "Misal: kain berbeda, dudukan lebih panjang, logo perusahaan pada kemasan",
+    "noNotes": "Tidak ada catatan",
+    "indicativePrice": "Harga indikatif",
+    "lineEstimate": "Estimasi baris",
+    "priceOnRequest": "Harga atas permintaan",
+    "editItem": "Ubah item",
+    "saveItem": "Simpan perubahan",
+    "removeItem": "Hapus item",
+    "removed": "Dihapus dari daftar permintaan",
+    "undo": "Batalkan",
+    "summaryTitle": "Ringkasan estimasi",
+    "estimatedSubtotal": "Estimasi nilai produk",
+    "unpricedItems": "{count} produk dengan harga atas permintaan",
+    "disclaimer": "Harga yang ditampilkan adalah estimasi. Harga final, minimum order, kustomisasi, pajak, kemasan, dan biaya pengiriman akan dikonfirmasi oleh Global Rotan.",
+    "notInvoice": "Ini bukan tagihan dan tidak ada pembayaran yang diperlukan.",
+    "continueBrowsing": "Lanjut Melihat Produk",
+    "proceed": "Lanjut ke Formulir Permintaan",
+    "clear": "Kosongkan daftar",
+    "clearConfirm": "Hapus semua produk dari daftar permintaan?",
+    "belowMoqWarning": "Di bawah minimum order {count} pcs — kami akan mengonfirmasi opsinya dengan Anda."
+  },
+  "quote": {
+    "eyebrow": "Permintaan penawaran",
+    "title": "Minta Penawaran",
+    "description": "Beri tahu kami siapa Anda dan ke mana furnitur akan dikirim. Kami biasanya membalas dalam 1–2 hari kerja dengan harga, waktu produksi, dan pilihan pengiriman.",
+    "sections": {
+      "contact": "Data Anda",
+      "business": "Bisnis & pengiriman",
+      "preferences": "Anggaran & waktu",
+      "products": "Produk yang diminta",
+      "message": "Kustomisasi & pesan"
+    },
+    "fullName": "Nama lengkap",
+    "companyName": "Nama perusahaan",
+    "email": "Alamat email",
+    "countryCode": "Kode negara",
+    "phone": "Nomor WhatsApp atau telepon",
+    "phoneHint": "Hanya angka, tanpa kode negara",
+    "country": "Negara",
+    "customerType": "Jenis pelanggan",
+    "shippingDestination": "Tujuan pengiriman",
+    "shippingDestinationHint": "Kota dan negara, atau pelabuhan tujuan",
+    "preferredLanguage": "Bahasa yang diinginkan",
+    "preferredCurrency": "Mata uang yang diinginkan",
+    "estimatedBudget": "Estimasi anggaran",
+    "estimatedBudgetHint": "Perkiraan kisaran membantu kami menyarankan opsi yang sesuai",
+    "deliveryDate": "Tanggal pengiriman yang dibutuhkan",
+    "customization": "Permintaan kustomisasi",
+    "customizationPlaceholder": "Ukuran, warna, kain, finishing, kemasan, atau kebutuhan branding",
+    "message": "Pesan tambahan",
+    "messagePlaceholder": "Hal lain yang perlu kami ketahui tentang proyek Anda",
+    "select": "Pilih…",
+    "languages": {
+      "en": "English",
+      "id": "Bahasa Indonesia"
+    },
+    "privacy": "Saya menyetujui <link>Kebijakan Privasi</link> dan mengizinkan Global Rotan menghubungi saya terkait permintaan ini.",
+    "submit": "Kirim Permintaan",
+    "submitting": "Mengirim permintaan…",
+    "noPayment": "Tidak ada pembayaran. Tim kami akan menghubungi Anda dengan penawaran harga.",
+    "productsEmpty": "Daftar permintaan Anda kosong. Tambahkan minimal satu produk sebelum mengirim permintaan.",
+    "editList": "Ubah daftar",
+    "honeypot": "Biarkan kolom ini kosong",
+    "errorGeneric": "Terjadi kendala saat mengirim permintaan. Silakan coba lagi atau hubungi kami melalui WhatsApp.",
+    "errorRateLimit": "Terlalu banyak permintaan dari koneksi Anda. Mohon tunggu beberapa menit, lalu coba lagi.",
+    "errorUnavailable": "Satu atau beberapa produk di daftar Anda sudah tidak tersedia. Silakan periksa kembali daftar permintaan.",
+    "errorValidation": "Mohon periksa kolom yang ditandai.",
+    "notConfigured": "Pengiriman permintaan belum dikonfigurasi di server. Silakan hubungi kami melalui WhatsApp atau email."
+  },
+  "success": {
+    "eyebrow": "Permintaan diterima",
+    "title": "Terima kasih, permintaan Anda sudah terkirim",
+    "description": "Tim kami akan meninjau daftar produk Anda dan menghubungi Anda dengan penawaran harga. Belum ada pesanan yang dibuat dan tidak ada pembayaran yang diambil.",
+    "inquiryNumber": "Nomor permintaan",
+    "copyNumber": "Salin nomor permintaan",
+    "numberCopied": "Nomor permintaan disalin",
+    "nextTitle": "Langkah selanjutnya",
+    "steps": {
+      "review": "Kami meninjau produk, jumlah, dan catatan kustomisasi Anda.",
+      "contact": "Tim kami menghubungi Anda melalui email atau WhatsApp untuk mengonfirmasi detail.",
+      "quote": "Anda menerima penawaran berisi harga, minimum order, waktu produksi, dan pilihan pengiriman."
+    },
+    "summary": "Produk dalam permintaan Anda",
+    "whatsappCta": "Lanjutkan di WhatsApp",
+    "backToProducts": "Kembali ke Produk",
+    "missing": "Permintaan Anda sudah terkirim. Simpan nomor permintaan untuk referensi."
+  },
+  "contact": {
+    "eyebrow": "Kontak",
+    "title": "Mari bicarakan kebutuhan furnitur Anda",
+    "description": "Tanyakan produk, kirim brief proyek, atau diskusikan pesanan ekspor. Kami membalas pada jam kerja.",
+    "formTitle": "Kirim pesan",
+    "topic": "Topik",
+    "topics": {
+      "general": "Pertanyaan umum",
+      "product": "Pertanyaan produk",
+      "project": "Proyek atau furnitur custom",
+      "export": "Ekspor & pengiriman"
+    },
+    "fullName": "Nama lengkap",
+    "email": "Alamat email",
+    "phone": "WhatsApp atau telepon",
+    "company": "Nama perusahaan",
+    "country": "Negara",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "messagePlaceholder": "Ada yang bisa kami bantu?",
+    "submit": "Kirim Pesan",
+    "submitting": "Mengirim…",
+    "successTitle": "Pesan terkirim",
+    "successText": "Terima kasih telah menghubungi kami. Kami akan membalas ke {email} secepatnya.",
+    "sendAnother": "Kirim pesan lain",
+    "errorGeneric": "Pesan gagal dikirim. Silakan coba lagi atau hubungi kami melalui WhatsApp.",
+    "details": "Detail kontak",
+    "email_label": "Email",
+    "whatsapp_label": "WhatsApp",
+    "address_label": "Alamat workshop",
+    "hours_label": "Jam operasional",
+    "whatsappCta": "Chat melalui WhatsApp",
+    "quoteCtaTitle": "Sudah punya daftar produk?",
+    "quoteCtaText": "Tambahkan produk ke daftar permintaan dan kirim dalam satu permintaan.",
+    "aboutProduct": "Tentang: {name}"
+  },
+  "floating": {
+    "open": "Pilihan kontak",
+    "close": "Tutup pilihan kontak",
+    "title": "Ada yang bisa kami bantu?",
+    "whatsapp": "Chat melalui WhatsApp",
+    "whatsappDesc": "Pertanyaan singkat pada jam kerja",
+    "inquiry": "Kirim Permintaan Produk",
+    "inquiryDesc": "Minta penawaran untuk produk pilihan",
+    "question": "Pertanyaan Umum",
+    "questionDesc": "Kirim pesan kepada tim kami"
+  },
+  "about": {
+    "eyebrow": "Tentang Kami",
+    "title": "Rotan Indonesia, dibuat dengan teliti untuk pelanggan di mana saja",
+    "description": "Global Rotan mempertemukan perajin Indonesia yang terampil dengan pembeli yang menghargai material alami, konstruksi yang jujur, dan layanan yang dapat diandalkan.",
+    "storyTitle": "Cerita kami",
+    "storyBody": "Rotan telah menjadi bagian dari rumah Indonesia selama beberapa generasi. Global Rotan hadir agar kerajinan ini lebih mudah dibeli oleh orang dan bisnis di seluruh dunia — dengan informasi produk yang jelas, kustomisasi yang praktis, dan komunikasi yang menghargai waktu Anda.\n\nKami bekerja erat dengan workshop yang membentuk, mengikat, dan menganyam setiap rangka dengan tangan. Setiap pesanan diperiksa kenyamanan, kekuatan, dan finishingnya sebelum dikemas.",
+    "valuesTitle": "Nilai yang kami pegang",
+    "values": {
+      "craft": {
+        "title": "Mengutamakan keahlian",
+        "text": "Furnitur yang baik berawal dari pengerjaan tangan yang sabar dan sambungan yang kokoh."
+      },
+      "material": {
+        "title": "Material alami",
+        "text": "Rotan tumbuh cepat dan terbarukan. Kami menggunakannya dengan bijak."
+      },
+      "partnership": {
+        "title": "Kemitraan jangka panjang",
+        "text": "Kami ingin menjadi pemasok yang bisa Anda andalkan untuk pesanan berulang."
+      },
+      "clarity": {
+        "title": "Komunikasi yang jelas",
+        "text": "Penawaran yang lugas, waktu produksi yang realistis, dan kabar berkala."
+      }
+    },
+    "factsTitle": "Sekilas Global Rotan",
+    "factsPending": "Data perusahaan akan ditampilkan di sini setelah diverifikasi.",
+    "ctaTitle": "Bekerja sama dengan Global Rotan",
+    "ctaText": "Jelajahi katalog atau ceritakan proyek Anda kepada kami."
+  },
+  "custom": {
+    "eyebrow": "Furnitur Custom",
+    "title": "Furnitur rotan yang dibuat sesuai ruang Anda",
+    "description": "Untuk hotel, restoran, vila, retailer, dan desainer interior yang membutuhkan furnitur dengan konsep, ukuran, atau jumlah tertentu.",
+    "optionsTitle": "Apa saja yang bisa disesuaikan",
+    "options": {
+      "dimensions": {
+        "title": "Ukuran",
+        "text": "Tinggi dudukan, lebar, dan kedalaman disesuaikan dengan tata ruang Anda."
+      },
+      "weave": {
+        "title": "Anyaman & material",
+        "text": "Rotan alami, anyaman cane, atau serat sintetis untuk area outdoor."
+      },
+      "finish": {
+        "title": "Warna & finishing",
+        "text": "Natural, madu, walnut, whitewash, hitam, atau disesuaikan dengan sampel Anda."
+      },
+      "fabric": {
+        "title": "Bantalan & kain",
+        "text": "Pelapis indoor maupun outdoor dengan warna pilihan Anda."
+      },
+      "branding": {
+        "title": "Kemasan & label",
+        "text": "Kemasan siap jual dan label untuk distributor."
+      },
+      "design": {
+        "title": "Desain baru",
+        "text": "Kembangkan produk dari gambar kerja, referensi, atau mood board Anda."
+      }
+    },
+    "processTitle": "Alur pesanan custom",
+    "process": {
+      "brief": {
+        "title": "Kirim brief",
+        "text": "Kirimkan gambar, referensi, jumlah, dan tujuan pengiriman."
+      },
+      "proposal": {
+        "title": "Proposal & penawaran",
+        "text": "Kami mengonfirmasi material, konstruksi, harga, dan waktu produksi."
+      },
+      "sample": {
+        "title": "Persetujuan sampel",
+        "text": "Sampel atau foto detail disiapkan bila diperlukan."
+      },
+      "production": {
+        "title": "Produksi",
+        "text": "Pesanan dikerjakan dengan tangan disertai kabar perkembangan."
+      },
+      "delivery": {
+        "title": "Pengemasan & pengiriman",
+        "text": "Kemasan ekspor dan koordinasi pengiriman hingga lokasi Anda."
+      }
+    },
+    "noteTitle": "Perlu diketahui",
+    "note": "Minimum order, biaya sampel, dan waktu produksi bergantung pada desain dan jumlah pesanan. Semuanya akan kami jelaskan dalam penawaran.",
+    "primaryCta": "Pesan Furnitur Custom",
+    "secondaryCta": "Diskusikan Proyek Anda"
+  },
+  "export": {
+    "eyebrow": "Informasi Ekspor",
+    "title": "Membeli furnitur rotan dari Indonesia",
+    "description": "Gambaran cara kami menyiapkan pesanan internasional — mulai dari minimum order hingga pengemasan dan pengiriman.",
+    "sections": {
+      "moq": {
+        "title": "Minimum order",
+        "text": "Minimum order tercantum di setiap produk dan dapat digabungkan antarproduk untuk pesanan kontainer. Pesanan kecil tetap bisa didiskusikan."
+      },
+      "container": {
+        "title": "Kontainer & pengiriman gabungan",
+        "text": "Kami dapat menyiapkan muatan kontainer penuh (20ft atau 40ft) maupun pengiriman gabungan. Rencana muat dibagikan sebelum produksi difinalkan."
+      },
+      "packing": {
+        "title": "Kemasan ekspor",
+        "text": "Produk dibungkus foam, plastik, dan kardus. Kemasan knock-down atau peti kayu dapat disiapkan untuk barang yang rentan."
+      },
+      "documents": {
+        "title": "Dokumen",
+        "text": "Kami menyiapkan commercial invoice dan packing list, serta dapat membantu mengurus dokumen lain yang dibutuhkan negara Anda."
+      },
+      "terms": {
+        "title": "Syarat perdagangan",
+        "text": "Penawaran umumnya menggunakan syarat EXW atau FOB. Syarat lain dapat didiskusikan bersama forwarder Anda."
+      },
+      "leadtime": {
+        "title": "Waktu produksi",
+        "text": "Waktu produksi bergantung pada desain, jumlah, dan musim. Setiap penawaran mencantumkan estimasi jadwal produksi."
+      }
+    },
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faq": [
+      {
+        "q": "Bisakah saya menggabungkan beberapa produk dalam satu pesanan?",
+        "a": "Bisa. Banyak pembeli menggabungkan kursi, meja, dan aksesori dalam satu pengiriman. Minimum order per produk tetap berlaku kecuali disepakati lain."
+      },
+      {
+        "q": "Apakah harga di website sudah termasuk ongkos kirim?",
+        "a": "Belum. Harga di website adalah harga indikatif produk. Ongkos kirim, asuransi, bea masuk, dan pajak dihitung terpisah."
+      },
+      {
+        "q": "Bisakah saya menggunakan forwarder sendiri?",
+        "a": "Bisa. Kami dapat menyerahkan barang kepada forwarder Anda atau membantu membandingkan pilihan pengiriman."
+      },
+      {
+        "q": "Bagaimana cara pembayaran pesanan?",
+        "a": "Syarat pembayaran disepakati setelah Anda menyetujui penawaran. Website ini tidak menerima pembayaran online."
+      }
+    ],
+    "ctaTitle": "Siap merencanakan pengiriman?",
+    "ctaText": "Kirimkan daftar produk dan tujuan pengiriman untuk mendapatkan penawaran.",
+    "detailLink": "Baca kebijakan pengiriman & ekspor"
+  },
+  "shipping": {
+    "eyebrow": "Informasi",
+    "title": "Informasi Pengiriman & Ekspor",
+    "updated": "Terakhir diperbarui: {date}",
+    "intro": "Halaman ini menjelaskan cara Global Rotan menyiapkan dan mengirim pesanan. Ketentuan spesifik dikonfirmasi dalam setiap penawaran.",
+    "sections": [
+      {
+        "title": "Proses pemesanan",
+        "body": "Pesanan baru dianggap terkonfirmasi setelah Anda menyetujui penawaran tertulis. Harga di website bersifat indikatif dan bukan merupakan penawaran yang mengikat."
+      },
+      {
+        "title": "Produksi dan waktu pengerjaan",
+        "body": "Produk stok tersedia biasanya dapat disiapkan lebih cepat. Produk sesuai pesanan dan custom mengikuti jadwal produksi dalam penawaran. Waktu pengerjaan dapat berubah pada musim ramai."
+      },
+      {
+        "title": "Pengemasan",
+        "body": "Kemasan ekspor standar mencakup pelindung foam, pembungkus plastik, dan karton. Kemasan khusus seperti peti kayu atau kotak retail dapat dihitung atas permintaan."
+      },
+      {
+        "title": "Pengiriman domestik (Indonesia)",
+        "body": "Kami dapat mengatur pengiriman di dalam Indonesia melalui mitra logistik terpercaya. Biaya bergantung pada volume dan tujuan."
+      },
+      {
+        "title": "Pengiriman internasional",
+        "body": "Kami melayani pengiriman gabungan (LCL) dan kontainer penuh (FCL). Ongkos kirim, asuransi, bea masuk, pajak, dan proses kepabeanan di negara tujuan menjadi tanggung jawab pembeli kecuali disepakati lain secara tertulis."
+      },
+      {
+        "title": "Dokumen",
+        "body": "Commercial invoice dan packing list disediakan untuk setiap pengiriman ekspor. Dokumen tambahan yang dibutuhkan negara Anda dapat didiskusikan sebelum produksi."
+      },
+      {
+        "title": "Pemeriksaan dan klaim",
+        "body": "Mohon periksa barang saat tiba dan laporkan kerusakan yang terlihat dalam 7 hari disertai foto. Kami akan meninjau klaim secara adil sesuai syarat pengiriman yang disepakati."
+      }
+    ]
+  },
+  "legal": {
+    "updated": "Terakhir diperbarui: {date}",
+    "reviewNote": "Dokumen ini adalah templat umum. Mohon tinjau bersama penasihat hukum sebelum dipublikasikan.",
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "intro": "Kebijakan Privasi ini menjelaskan cara Global Rotan mengumpulkan dan menggunakan data pribadi yang dikirim melalui website ini.",
+      "sections": [
+        {
+          "title": "Data yang kami kumpulkan",
+          "body": "Saat Anda mengirim permintaan atau pesan, kami mengumpulkan data yang Anda berikan, seperti nama, perusahaan, alamat email, nomor telepon atau WhatsApp, negara, tujuan pengiriman, dan produk yang Anda minati. Favorit dan daftar permintaan disimpan di browser Anda sendiri sampai Anda mengirimkannya."
+        },
+        {
+          "title": "Cara kami menggunakan data",
+          "body": "Kami menggunakan data Anda untuk menanggapi permintaan, menyiapkan penawaran, mengatur produksi dan pengiriman, serta meningkatkan layanan. Kami tidak menjual data pribadi Anda."
+        },
+        {
+          "title": "Pembagian data",
+          "body": "Kami dapat membagikan data yang diperlukan kepada mitra logistik atau penyedia layanan semata-mata untuk memenuhi permintaan Anda. Pihak tersebut diharapkan menjaga kerahasiaan data Anda."
+        },
+        {
+          "title": "Penyimpanan dan keamanan",
+          "body": "Data disimpan pada penyedia cloud terpercaya dengan kontrol akses. Hanya staf berwenang yang dapat melihat permintaan dan pesan."
+        },
+        {
+          "title": "Hak Anda",
+          "body": "Anda dapat meminta kami untuk mengakses, memperbaiki, atau menghapus data pribadi Anda dengan menghubungi alamat email yang tercantum di website ini."
+        },
+        {
+          "title": "Cookie dan penyimpanan lokal",
+          "body": "Kami menggunakan cookie esensial dan penyimpanan lokal untuk mengingat bahasa, mata uang, favorit, dan daftar permintaan Anda. Kami tidak menggunakannya untuk iklan."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Syarat dan Ketentuan",
+      "intro": "Dengan menggunakan website ini, Anda menyetujui ketentuan berikut.",
+      "sections": [
+        {
+          "title": "Informasi katalog",
+          "body": "Foto, deskripsi, ukuran, dan warna produk disediakan sebagai referensi. Produk buatan tangan dan material alami dapat sedikit berbeda dari yang ditampilkan."
+        },
+        {
+          "title": "Harga",
+          "body": "Harga di website ini merupakan estimasi indikatif dan dapat berubah tanpa pemberitahuan. Harga final hanya dikonfirmasi dalam penawaran tertulis dan bergantung pada jumlah, spesifikasi, kemasan, tujuan, pajak, dan pengiriman."
+        },
+        {
+          "title": "Tanpa transaksi online",
+          "body": "Website ini tidak memproses pesanan maupun pembayaran. Mengirim permintaan tidak menimbulkan kontrak jual beli."
+        },
+        {
+          "title": "Pesanan",
+          "body": "Pesanan terkonfirmasi setelah kedua pihak menyetujui penawaran tertulis, termasuk syarat pembayaran, jadwal produksi, dan syarat pengiriman."
+        },
+        {
+          "title": "Hak kekayaan intelektual",
+          "body": "Konten website, desain produk, dan foto adalah milik Global Rotan atau pemiliknya masing-masing dan tidak boleh digunakan tanpa izin."
+        },
+        {
+          "title": "Batasan tanggung jawab",
+          "body": "Kami berupaya menjaga keakuratan informasi, namun tidak bertanggung jawab atas kerugian akibat mengandalkan konten website tanpa konfirmasi tertulis."
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman mungkin telah dipindahkan atau tautannya keliru. Coba jelajahi katalog kami.",
+    "home": "Kembali ke Beranda",
+    "products": "Lihat Produk"
+  },
+  "errors": {
+    "title": "Terjadi kesalahan",
+    "description": "Terjadi kesalahan tak terduga saat memuat halaman ini. Silakan coba lagi.",
+    "retry": "Coba lagi",
+    "home": "Kembali ke Beranda"
+  },
+  "validation": {
+    "required": "Kolom ini wajib diisi.",
+    "nameMin": "Mohon isi nama lengkap Anda.",
+    "tooLong": "Isian terlalu panjang.",
+    "emailInvalid": "Mohon isi alamat email yang valid.",
+    "codeInvalid": "Mohon isi kode negara yang valid, misal +62 atau +1.",
+    "phoneInvalid": "Mohon isi nomor telepon yang valid (6–15 digit).",
+    "countryRequired": "Mohon pilih negara Anda.",
+    "customerTypeRequired": "Mohon pilih jenis pelanggan.",
+    "destinationRequired": "Mohon isi tujuan pengiriman.",
+    "privacyRequired": "Mohon setujui Kebijakan Privasi untuk melanjutkan.",
+    "messageMin": "Mohon tulis minimal 10 karakter.",
+    "dateInvalid": "Mohon pilih tanggal di masa mendatang.",
+    "itemsRequired": "Tambahkan minimal satu produk ke daftar permintaan.",
+    "quantityMin": "Jumlah minimal 1.",
+    "spam": "Pesan Anda gagal dikirim. Silakan coba lagi."
+  }
+}

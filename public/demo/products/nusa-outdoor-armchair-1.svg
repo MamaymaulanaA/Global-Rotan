@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 195 680 850" width="800" height="1000" role="img">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4EDE2"/><stop offset="1" stop-color="#EBE1D2"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3D7C5"/><stop offset="1" stop-color="#D5C6AF"/>
+    </linearGradient>
+    <linearGradient id="wall2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDE2D1"/><stop offset="1" stop-color="#E2D4BF"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CDB999"/><stop offset="1" stop-color="#BBA482"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2B1D11" stop-opacity="0.28"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="teak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BE8F60"/><stop offset="1" stop-color="#6C4726"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE3B0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFE3B0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="cane" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#4D4841"/>
+      <g stroke="#A89F92" stroke-width="3.2" stroke-linecap="round">
+        <line x1="0" y1="0" x2="24" y2="24"/>
+        <line x1="24" y1="0" x2="0" y2="24"/>
+      </g>
+      <rect x="0" y="8.5" width="24" height="7" fill="#CBC3B7"/>
+      <rect x="8.5" y="0" width="7" height="24" fill="#A89F92"/>
+      <rect x="0" y="8.5" width="24" height="2" fill="#FFFFFF" opacity="0.18"/>
+    </pattern>
+    <pattern id="wicker" width="22" height="14" patternUnits="userSpaceOnUse">
+      <rect width="22" height="14" fill="#4D4841"/>
+      <rect x="1" y="1" width="20" height="5.2" rx="2.6" fill="#A89F92"/>
+      <rect x="1" y="1" width="20" height="2" rx="1" fill="#CBC3B7" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="5.2" rx="2.6" fill="#A89F92"/>
+      <rect x="12" y="8" width="20" height="5.2" rx="2.6" fill="#A89F92"/>
+      <rect x="12" y="8" width="20" height="2" rx="1" fill="#CBC3B7" opacity="0.7"/>
+      <rect x="-10" y="8" width="20" height="2" rx="1" fill="#CBC3B7" opacity="0.7"/>
+    </pattern>
+    <pattern id="weave" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#80786C"/>
+      <rect x="1" y="1" width="13" height="28" rx="3" fill="#A89F92"/>
+      <rect x="16" y="1" width="13" height="13" rx="3" fill="#CBC3B7"/>
+      <rect x="16" y="16" width="13" height="13" rx="3" fill="#A89F92"/>
+      <rect x="1" y="1" width="13" height="4" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    </pattern>
+  </defs><rect x="-100" y="-100" width="1000" height="1300" fill="url(#wall)"/>
+     <path d="M-100 700 Q400 690 900 700 L900 1200 L-100 1200 Z" fill="url(#floor)"/>
+     <rect width="800" height="1000" fill="url(#light)"/>
+     <g>
+    <ellipse cx="400" cy="794" rx="250" ry="26" fill="#3B2A1A" opacity="0.22" filter="url(#soft)"/>
+    <rect x="236" y="770" width="34" height="20" rx="4" fill="#2F2B27"/><rect x="530" y="770" width="34" height="20" rx="4" fill="#2F2B27"/>
+    
+  <path d="M214 470 Q214 420 264 420 L536 420 Q586 420 586 470 L586 760 Q586 776 570 776 L230 776 Q214 776 214 760 Z" fill="url(#wicker)"/>
+  <path d="M214 470 Q214 420 264 420 L536 420 Q586 420 586 470 L586 760 Q586 776 570 776 L230 776 Q214 776 214 760 Z" fill="url(#sheen)" opacity="0.6"/>
+  <path d="M214 470 Q214 420 264 420 L536 420 Q586 420 586 470 L586 760 Q586 776 570 776 L230 776 Q214 776 214 760 Z" fill="none" stroke="#80786C" stroke-width="2" opacity="0.35"/>
+    
+  <rect x="262" y="446" width="276" height="168" rx="30" fill="#CEC6B8"/>
+  <rect x="262" y="446" width="276" height="168" rx="30" fill="url(#sheen)"/>
+  <rect x="268" y="604" width="264" height="6" rx="3" fill="#000" opacity="0.06"/>
+    
+  <rect x="252" y="596" width="296" height="90" rx="26" fill="#CEC6B8"/>
+  <rect x="252" y="596" width="296" height="90" rx="26" fill="url(#sheen)"/>
+  <rect x="258" y="676" width="284" height="6" rx="3" fill="#000" opacity="0.06"/>
+    <path d="M214 470 Q214 420 264 420 L536 420 Q586 420 586 470" fill="none" stroke="#CBC3B7" stroke-width="6" opacity="0.5"/>
+    
+  <rect x="320" y="476" width="110" height="86" rx="26" fill="#B7BDA3"/>
+  <rect x="320" y="476" width="110" height="86" rx="26" fill="url(#sheen)"/>
+  <rect x="326" y="552" width="98" height="6" rx="3" fill="#000" opacity="0.06"/></g>
+     <text x="712" y="1004" text-anchor="end" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#8C7B64" opacity="0.7">DEMO IMAGE</text></svg>

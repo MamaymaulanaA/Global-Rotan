@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "siteTitle": "Global Rotan — Indonesian Rattan Furniture",
+    "siteDescription": "Handcrafted Indonesian rattan furniture for homes, hotels, restaurants, retailers and international projects. Browse the catalog and request a quotation.",
+    "products": "Rattan Furniture Catalog",
+    "productsDescription": "Browse chairs, sofas, tables, dining sets, outdoor furniture and accessories made from natural and synthetic rattan.",
+    "collections": "Collections",
+    "collectionsDescription": "Curated rattan furniture collections designed in Indonesia for residential and hospitality spaces.",
+    "about": "About Us",
+    "aboutDescription": "Global Rotan supplies handcrafted Indonesian rattan furniture to customers at home and abroad.",
+    "custom": "Custom Rattan Furniture",
+    "customDescription": "Custom rattan furniture for hotels, restaurants, villas, retailers and interior projects — built to your dimensions, finishes and fabrics.",
+    "export": "Export Information",
+    "exportDescription": "How Global Rotan handles minimum orders, packing, documentation and international shipping for rattan furniture.",
+    "shipping": "Shipping & Export Information",
+    "shippingDescription": "Shipping methods, packing, lead times and export documentation for Global Rotan orders.",
+    "contact": "Contact",
+    "contactDescription": "Talk to Global Rotan about products, projects, custom furniture or export orders.",
+    "favorites": "Favorites",
+    "inquiry": "Inquiry Cart",
+    "quote": "Request a Quote",
+    "quoteDescription": "Send your product list and project details to receive a quotation from Global Rotan.",
+    "success": "Request Received",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  },
+  "common": {
+    "brand": "Global Rotan",
+    "demo": "Demo",
+    "demoContent": "Demo content",
+    "close": "Close",
+    "menu": "Menu",
+    "search": "Search",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "backToHome": "Back to Home",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "required": "Required",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "remove": "Remove",
+    "edit": "Edit",
+    "done": "Done",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied to clipboard",
+    "previous": "Previous",
+    "next": "Next",
+    "skipToContent": "Skip to content",
+    "all": "All",
+    "clear": "Clear",
+    "apply": "Apply",
+    "pcs": "pcs",
+    "sku": "SKU",
+    "or": "or",
+    "breadcrumb": "Breadcrumb",
+    "home": "Home"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "collections": "Collections",
+    "about": "About Us",
+    "customExport": "Custom & Export",
+    "customFurniture": "Custom Furniture",
+    "customFurnitureDesc": "Made to your dimensions, finishes and fabrics",
+    "exportInfo": "Export Information",
+    "exportInfoDesc": "Minimum orders, packing, documents and shipping",
+    "contact": "Contact",
+    "favorites": "Favorites",
+    "inquiryCart": "Inquiry Cart",
+    "requestQuote": "Request a Quote",
+    "mainNavigation": "Main navigation"
+  },
+  "header": {
+    "searchPlaceholder": "Search products or SKU",
+    "language": "Language",
+    "currency": "Currency",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "favoritesLabel": "Favorites, {count, plural, =0 {no saved products} one {# saved product} other {# saved products}}",
+    "cartLabel": "Inquiry cart, {count, plural, =0 {empty} one {# item} other {# items}}",
+    "languageSwitched": "Language changed to English",
+    "preferences": "Preferences"
+  },
+  "search": {
+    "title": "Search the catalog",
+    "placeholder": "Search by product name, SKU or keyword",
+    "submit": "Search",
+    "hint": "Try “lounge chair”, “outdoor” or a SKU such as GR-CH-001",
+    "popular": "Browse categories"
+  },
+  "footer": {
+    "description": "Handcrafted rattan furniture from Indonesia for homes, hospitality and international projects.",
+    "navigation": "Navigation",
+    "categories": "Categories",
+    "contact": "Contact",
+    "legal": "Information",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "shipping": "Shipping & Export Information",
+    "rights": "© {year} Global Rotan. All rights reserved.",
+    "preferences": "Language & currency",
+    "hours": "Business hours",
+    "follow": "Follow us",
+    "demoNotice": "Contact details shown are demo placeholders and can be updated in the admin dashboard.",
+    "noPayment": "Catalog and quotation service — no online payments are processed on this website."
+  },
+  "price": {
+    "starting_from": "Starting from",
+    "estimated": "Estimated price",
+    "fixed": "Price",
+    "contact": "Contact for Price",
+    "wholesale_request": "Wholesale Price on Request",
+    "perPiece": "per piece",
+    "disclaimer": "Final pricing may change based on order quantity, size, color, material, custom design, minimum order, packaging, destination country, taxes and shipping costs."
+  },
+  "availability": {
+    "ready_stock": "Ready Stock",
+    "made_to_order": "Made to Order",
+    "available": "Available",
+    "unavailable": "Not available",
+    "leadTimeRange": "{min}–{max} weeks",
+    "leadTimeSingle": "{weeks, plural, one {# week} other {# weeks}}",
+    "leadTimeOnRequest": "Confirmed on request"
+  },
+  "badges": {
+    "new": "New",
+    "featured": "Featured",
+    "best_seller": "Best Seller",
+    "ready_stock": "Ready Stock",
+    "made_to_order": "Made to Order"
+  },
+  "usage": {
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "both": "Indoor & Outdoor"
+  },
+  "materials": {
+    "natural_rattan": "Natural rattan",
+    "synthetic_rattan": "Synthetic PE rattan",
+    "rattan_cane": "Rattan cane webbing",
+    "teak_wood": "Teak wood",
+    "mahogany_wood": "Mahogany wood",
+    "aluminium": "Aluminium frame",
+    "powder_coated_steel": "Powder-coated steel",
+    "seagrass": "Seagrass",
+    "water_hyacinth": "Water hyacinth",
+    "fabric_cushion": "Fabric cushions"
+  },
+  "colorFamilies": {
+    "natural": "Natural",
+    "honey": "Honey",
+    "brown": "Brown",
+    "black": "Black",
+    "white": "White",
+    "grey": "Grey",
+    "green": "Green",
+    "blue": "Blue",
+    "other": "Other"
+  },
+  "customerTypes": {
+    "individual": "Individual",
+    "retailer": "Retailer",
+    "distributor": "Distributor",
+    "interior_designer": "Interior Designer",
+    "architect": "Architect",
+    "hotel_restaurant": "Hotel or Restaurant",
+    "project_owner": "Project Owner",
+    "other": "Other"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Indonesian Rattan Furniture",
+      "title": "Crafted in Indonesia, Made for the World",
+      "description": "Handwoven rattan furniture for homes, hotels, restaurants, retailers and international projects — available from ready stock or made to your specifications.",
+      "primaryCta": "Explore Products",
+      "secondaryCta": "Request a Quote",
+      "imageAlt": "Rattan lounge chair with a woven side table and pendant lamp in a warm, light interior"
+    },
+    "categories": {
+      "eyebrow": "Shop by category",
+      "title": "Furniture for every space",
+      "description": "From dining rooms to poolside terraces, explore rattan pieces grouped by how they are used.",
+      "productCount": "{count, plural, =0 {Coming soon} one {# product} other {# products}}",
+      "viewCategory": "View {name}"
+    },
+    "intro": {
+      "eyebrow": "About Global Rotan",
+      "title": "Rattan furniture with honest materials and careful handwork",
+      "body": "Global Rotan works with Indonesian makers to produce rattan furniture that is comfortable, durable and quietly beautiful. We supply homeowners, retailers and hospitality projects — in Indonesia and overseas.",
+      "points": {
+        "materials": {
+          "title": "Selected materials",
+          "text": "Natural rattan, cane webbing and weather-ready synthetic fibre, chosen for each use."
+        },
+        "process": {
+          "title": "Handmade process",
+          "text": "Frames are bent, bound and woven by hand, then finished and checked piece by piece."
+        },
+        "custom": {
+          "title": "Custom-ready",
+          "text": "Adjust sizes, colors, finishes and fabrics to suit your collection or project."
+        },
+        "global": {
+          "title": "International service",
+          "text": "Clear quotations, export packing and shipping coordination for overseas buyers."
+        }
+      },
+      "cta": "More about us"
+    },
+    "featured": {
+      "eyebrow": "Featured products",
+      "title": "Pieces our customers ask about",
+      "description": "A selection of chairs, sofas, tables and accessories from our current catalog.",
+      "viewAll": "View all products"
+    },
+    "why": {
+      "eyebrow": "Why Global Rotan",
+      "title": "A dependable partner from sample to shipment",
+      "items": {
+        "craftsmanship": {
+          "title": "Indonesian Craftsmanship",
+          "text": "Traditional rattan techniques refined for contemporary interiors."
+        },
+        "materials": {
+          "title": "Natural Materials",
+          "text": "Renewable rattan and responsibly selected wood, finished for everyday use."
+        },
+        "custom": {
+          "title": "Custom Design",
+          "text": "Dimensions, weaves, colors and fabrics tailored to your brief."
+        },
+        "export": {
+          "title": "Worldwide Export Support",
+          "text": "Export packing, documents and freight coordination handled with you."
+        }
+      }
+    },
+    "project": {
+      "eyebrow": "Custom & project orders",
+      "title": "Furnishing hotels, restaurants, villas and retail collections",
+      "description": "Share your floor plan, mood board or product list. We will recommend suitable pieces, prepare samples when needed and quote for your quantities and destination.",
+      "audiences": {
+        "hotels": "Hotels & resorts",
+        "restaurants": "Restaurants & cafés",
+        "villas": "Villas & residences",
+        "retailers": "Retailers & distributors",
+        "designers": "Interior designers & architects",
+        "contractors": "Contractors & project owners"
+      },
+      "primaryCta": "Discuss Your Project",
+      "secondaryCta": "Request Custom Furniture"
+    },
+    "process": {
+      "eyebrow": "Craftsmanship process",
+      "title": "How each piece is made",
+      "description": "Every order follows the same careful steps, whether it is one lounge chair or a full hotel fit-out.",
+      "steps": {
+        "selection": {
+          "title": "Material Selection",
+          "text": "Rattan poles and fibres are sorted for diameter, strength and color."
+        },
+        "handcrafting": {
+          "title": "Handcrafting",
+          "text": "Frames are steam-bent and bound, then woven by skilled hands."
+        },
+        "qc": {
+          "title": "Quality Control",
+          "text": "Joints, weave tension, finish and dimensions are checked before packing."
+        },
+        "packing": {
+          "title": "Packing",
+          "text": "Pieces are wrapped and protected for long-distance transport."
+        },
+        "shipping": {
+          "title": "Worldwide Shipping",
+          "text": "We coordinate freight and documents to your destination."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What customers say",
+      "demoNote": "Sample testimonials for layout preview. Replace them with verified reviews in the admin dashboard.",
+      "clientsTitle": "Trusted by",
+      "clientPlaceholder": "Client logo",
+      "clientsDemoNote": "Placeholder logos — add real clients with permission in the admin dashboard."
+    },
+    "cta": {
+      "title": "Planning a collection or project?",
+      "description": "Send us your product list and quantities. We will reply with a clear quotation, lead time and shipping options.",
+      "primary": "Request a Quote",
+      "secondary": "Contact Us"
+    }
+  },
+  "catalog": {
+    "eyebrow": "Catalog",
+    "title": "Rattan Furniture Catalog",
+    "description": "Filter by category, material, color and availability. Save favorites or add pieces to your inquiry list to request a quotation.",
+    "searchLabel": "Search products",
+    "searchPlaceholder": "Search by name, SKU or keyword",
+    "filters": "Filters",
+    "showFilters": "Show filters",
+    "category": "Category",
+    "collection": "Collection",
+    "priceRange": "Price range",
+    "material": "Material",
+    "color": "Color",
+    "usage": "Indoor / Outdoor",
+    "availability": "Availability",
+    "sortBy": "Sort by",
+    "sort": {
+      "featured": "Featured",
+      "newest": "Newest",
+      "name": "Name (A–Z)",
+      "price_asc": "Price: Low to High",
+      "price_desc": "Price: High to Low"
+    },
+    "results": "{count, plural, =0 {No products found} one {# product found} other {# products found}}",
+    "resultsFor": "for “{q}”",
+    "reset": "Reset filters",
+    "showResults": "Show results",
+    "gridView": "Grid layout",
+    "gridComfortable": "Larger images",
+    "gridCompact": "More products per row",
+    "emptyTitle": "No products match your filters",
+    "emptyText": "Try removing a filter or searching with a different keyword. You can also ask us about custom pieces.",
+    "emptyCta": "Ask about custom furniture",
+    "errorTitle": "We could not load the catalog",
+    "errorText": "Please check your connection and try again.",
+    "loading": "Loading products…",
+    "pagination": "Pagination",
+    "page": "Page {page} of {total}",
+    "goToPage": "Go to page {page}",
+    "activeFilters": "Active filters",
+    "removeFilter": "Remove filter: {label}",
+    "priceUnder": "Under {max}",
+    "priceBetween": "{min} – {max}",
+    "priceOver": "{min} and above"
+  },
+  "product": {
+    "viewDetails": "View Details",
+    "quickView": "Quick View",
+    "quickViewOf": "Quick view of {name}",
+    "addToInquiry": "Add to Inquiry",
+    "addToInquiryShort": "Add to Inquiry",
+    "updateInquiry": "Update Inquiry",
+    "addedToInquiry": "Added to your inquiry list",
+    "updatedInquiry": "Inquiry list updated",
+    "viewInquiry": "View list",
+    "inInquiry": "In inquiry list",
+    "addFavorite": "Save to favorites",
+    "removeFavorite": "Remove from favorites",
+    "favoriteAdded": "Saved to favorites",
+    "favoriteRemoved": "Removed from favorites",
+    "askAbout": "Ask About This Product",
+    "whatsapp": "Contact via WhatsApp",
+    "share": "Share product",
+    "sku": "SKU",
+    "category": "Category",
+    "collection": "Collection",
+    "color": "Color",
+    "size": "Size",
+    "finishing": "Material / finishing",
+    "quantity": "Quantity",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "minimumOrder": "Minimum order",
+    "moqValue": "{count, plural, one {# piece} other {# pieces}}",
+    "belowMoq": "The minimum order for this product is {count} pieces.",
+    "status": "Availability",
+    "leadTime": "Production lead time",
+    "selectOption": "Choose an option",
+    "unavailableCombo": "Not available in this combination",
+    "variantUnavailable": "This combination is currently unavailable. Please choose another option.",
+    "priceAdjustment": "+{amount}",
+    "indicativeNote": "Indicative price per piece. Final pricing is confirmed in your quotation.",
+    "tabs": {
+      "description": "Description",
+      "specifications": "Specifications",
+      "dimensions": "Dimensions",
+      "materials": "Materials",
+      "care": "Care Instructions",
+      "customization": "Customization",
+      "shipping": "Shipping & Export"
+    },
+    "spec": {
+      "sku": "SKU",
+      "category": "Category",
+      "collection": "Collection",
+      "materials": "Materials",
+      "finishing": "Finishing",
+      "usage": "Use",
+      "dimensions": "Overall dimensions (W × D × H)",
+      "seatHeight": "Seat height",
+      "weight": "Weight",
+      "moq": "Minimum order",
+      "leadTime": "Lead time",
+      "availability": "Availability"
+    },
+    "sizeTable": "Available sizes",
+    "sizeName": "Size",
+    "inCm": "Centimeters",
+    "inInch": "Inches",
+    "dimensionNote": "Dimensions are approximate; handmade pieces may vary by ±1–2 cm.",
+    "careDefault": "Dust regularly with a soft brush or dry cloth. Keep natural rattan away from prolonged direct sun, rain and heat sources. Wipe spills immediately with a lightly damp cloth and let dry in the shade. Synthetic rattan can be cleaned with mild soapy water.",
+    "customizationDefault": "Most pieces can be adjusted in size, weave pattern, color, finishing and upholstery fabric. Custom requests may affect minimum order quantity and production lead time. Tell us what you need in your inquiry.",
+    "shippingDefault": "Products are protected with foam, cardboard and plastic wrapping for export. We can arrange consolidated shipments (LCL) or full containers (20ft/40ft) and coordinate with your forwarder. Freight, duties and taxes are quoted separately based on your destination.",
+    "related": "You may also like",
+    "recentlyViewed": "Recently viewed",
+    "gallery": "Product images",
+    "openImage": "Open image {index} in full screen",
+    "showImage": "Show image {index}",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "imageCounter": "Image {index} of {total}",
+    "noImage": "Image coming soon",
+    "fullDetails": "View Full Details",
+    "shareText": "Take a look at {name} from Global Rotan",
+    "notFound": "This product is not available.",
+    "whatsappFallback": "Not selected"
+  },
+  "quickView": {
+    "loading": "Loading product…",
+    "error": "We could not load this product. Please try again."
+  },
+  "favorites": {
+    "title": "Favorites",
+    "description": "Products you saved on this device. Move them to your inquiry list when you are ready to request a quotation.",
+    "count": "{count, plural, =0 {No saved products} one {# saved product} other {# saved products}}",
+    "emptyTitle": "You have not saved any products yet",
+    "emptyText": "Tap the heart icon on any product to keep it here for later.",
+    "browse": "Browse Products",
+    "moveToInquiry": "Move to Inquiry",
+    "movedToInquiry": "Moved to your inquiry list",
+    "remove": "Remove",
+    "unavailable": "Some saved products are no longer available and were hidden.",
+    "clearAll": "Clear all",
+    "clearConfirm": "Remove all saved products?"
+  },
+  "inquiry": {
+    "title": "Inquiry Cart",
+    "description": "Collect the products you would like to ask about, then send one request for a quotation. This is not a checkout.",
+    "emptyTitle": "Your inquiry list is empty",
+    "emptyText": "Add products from the catalog to request pricing, lead times and shipping options.",
+    "browse": "Browse Products",
+    "itemsCount": "{count, plural, one {# product} other {# products}}",
+    "color": "Color",
+    "size": "Size",
+    "finishing": "Finishing",
+    "quantity": "Quantity",
+    "notes": "Custom notes",
+    "notesPlaceholder": "E.g. different fabric, longer seat, company logo on packaging",
+    "noNotes": "No notes",
+    "indicativePrice": "Indicative price",
+    "lineEstimate": "Line estimate",
+    "priceOnRequest": "Price on request",
+    "editItem": "Edit item",
+    "saveItem": "Save changes",
+    "removeItem": "Remove item",
+    "removed": "Removed from your inquiry list",
+    "undo": "Undo",
+    "summaryTitle": "Estimate summary",
+    "estimatedSubtotal": "Estimated product value",
+    "unpricedItems": "{count, plural, one {# product priced on request} other {# products priced on request}}",
+    "disclaimer": "Prices shown are estimates. Final pricing, minimum order, customization, taxes, packaging, and shipping costs will be confirmed by Global Rotan.",
+    "notInvoice": "This is not an invoice and no payment is required.",
+    "continueBrowsing": "Continue Browsing",
+    "proceed": "Proceed to Request Form",
+    "clear": "Clear list",
+    "clearConfirm": "Remove all products from your inquiry list?",
+    "belowMoqWarning": "Below the minimum order of {count} pcs — we will confirm options with you."
+  },
+  "quote": {
+    "eyebrow": "Quotation request",
+    "title": "Request a Quote",
+    "description": "Tell us who you are and where the furniture is going. We usually reply within 1–2 business days with pricing, lead time and shipping options.",
+    "sections": {
+      "contact": "Your details",
+      "business": "Business & shipping",
+      "preferences": "Budget & timing",
+      "products": "Requested products",
+      "message": "Customization & message"
+    },
+    "fullName": "Full name",
+    "companyName": "Company name",
+    "email": "Email address",
+    "countryCode": "Country code",
+    "phone": "WhatsApp or phone number",
+    "phoneHint": "Numbers only, without the country code",
+    "country": "Country",
+    "customerType": "Customer type",
+    "shippingDestination": "Shipping destination",
+    "shippingDestinationHint": "City and country, or port of destination",
+    "preferredLanguage": "Preferred language",
+    "preferredCurrency": "Preferred currency",
+    "estimatedBudget": "Estimated budget",
+    "estimatedBudgetHint": "An approximate range helps us suggest suitable options",
+    "deliveryDate": "Required delivery date",
+    "customization": "Customization request",
+    "customizationPlaceholder": "Sizes, colors, fabrics, finishes, packaging or branding requirements",
+    "message": "Additional message",
+    "messagePlaceholder": "Anything else we should know about your project",
+    "select": "Select…",
+    "languages": {
+      "en": "English",
+      "id": "Bahasa Indonesia"
+    },
+    "privacy": "I agree to the <link>Privacy Policy</link> and allow Global Rotan to contact me about this request.",
+    "submit": "Send Request",
+    "submitting": "Sending your request…",
+    "noPayment": "No payment is collected. Our team will contact you with a quotation.",
+    "productsEmpty": "Your inquiry list is empty. Add at least one product before sending a request.",
+    "editList": "Edit list",
+    "honeypot": "Leave this field empty",
+    "errorGeneric": "Something went wrong while sending your request. Please try again or contact us on WhatsApp.",
+    "errorRateLimit": "Too many requests from your connection. Please wait a few minutes and try again.",
+    "errorUnavailable": "One or more products in your list are no longer available. Please review your inquiry list.",
+    "errorValidation": "Please check the highlighted fields.",
+    "notConfigured": "Inquiry submission is not configured on the server yet. Please contact us via WhatsApp or email."
+  },
+  "success": {
+    "eyebrow": "Request received",
+    "title": "Thank you, your request has been sent",
+    "description": "Our team will review your product list and contact you with a quotation. No order has been placed and no payment has been taken.",
+    "inquiryNumber": "Inquiry number",
+    "copyNumber": "Copy inquiry number",
+    "numberCopied": "Inquiry number copied",
+    "nextTitle": "What happens next",
+    "steps": {
+      "review": "We review your products, quantities and customization notes.",
+      "contact": "A team member contacts you by email or WhatsApp to confirm details.",
+      "quote": "You receive a quotation with pricing, minimum order, lead time and shipping options."
+    },
+    "summary": "Products in your request",
+    "whatsappCta": "Continue on WhatsApp",
+    "backToProducts": "Back to Products",
+    "missing": "Your request was sent. Keep your inquiry number for future reference."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s talk about your furniture",
+    "description": "Ask about a product, share a project brief or discuss export orders. We reply during business hours.",
+    "formTitle": "Send a message",
+    "topic": "Topic",
+    "topics": {
+      "general": "General question",
+      "product": "Product question",
+      "project": "Project or custom furniture",
+      "export": "Export & shipping"
+    },
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "WhatsApp or phone",
+    "company": "Company name",
+    "country": "Country",
+    "subject": "Subject",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Send Message",
+    "submitting": "Sending…",
+    "successTitle": "Message sent",
+    "successText": "Thank you for reaching out. We will reply to {email} as soon as possible.",
+    "sendAnother": "Send another message",
+    "errorGeneric": "We could not send your message. Please try again or reach us on WhatsApp.",
+    "details": "Contact details",
+    "email_label": "Email",
+    "whatsapp_label": "WhatsApp",
+    "address_label": "Workshop address",
+    "hours_label": "Business hours",
+    "whatsappCta": "Chat via WhatsApp",
+    "quoteCtaTitle": "Already have a product list?",
+    "quoteCtaText": "Add products to your inquiry cart and send them in one request.",
+    "aboutProduct": "About: {name}"
+  },
+  "floating": {
+    "open": "Contact options",
+    "close": "Close contact options",
+    "title": "How can we help?",
+    "whatsapp": "Chat via WhatsApp",
+    "whatsappDesc": "Quick questions during business hours",
+    "inquiry": "Send Product Inquiry",
+    "inquiryDesc": "Request a quotation for selected products",
+    "question": "General Question",
+    "questionDesc": "Send a message to our team"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Indonesian rattan, made with care for customers everywhere",
+    "description": "Global Rotan brings together skilled Indonesian makers and buyers who value natural materials, honest construction and dependable service.",
+    "storyTitle": "Our story",
+    "storyBody": "Rattan has been part of Indonesian homes for generations. Global Rotan was created to make this craft easier to buy for people and businesses around the world — with clear product information, practical customization and communication that respects your time.\n\nWe work closely with workshops that bend, bind and weave each frame by hand. Every order is checked for comfort, strength and finish before it is packed.",
+    "valuesTitle": "What we value",
+    "values": {
+      "craft": {
+        "title": "Craft first",
+        "text": "Good furniture starts with patient handwork and sound joinery."
+      },
+      "material": {
+        "title": "Natural materials",
+        "text": "Rattan is fast-growing and renewable. We use it thoughtfully."
+      },
+      "partnership": {
+        "title": "Long-term partnership",
+        "text": "We aim to be a supplier you can reorder from with confidence."
+      },
+      "clarity": {
+        "title": "Clear communication",
+        "text": "Straightforward quotations, realistic lead times and regular updates."
+      }
+    },
+    "factsTitle": "Global Rotan at a glance",
+    "factsPending": "Company figures will be published here once they are verified.",
+    "ctaTitle": "Work with Global Rotan",
+    "ctaText": "Browse the catalog or tell us about your project."
+  },
+  "custom": {
+    "eyebrow": "Custom Furniture",
+    "title": "Rattan furniture built around your space",
+    "description": "For hotels, restaurants, villas, retailers and interior designers who need furniture that fits a specific concept, size or quantity.",
+    "optionsTitle": "What can be customized",
+    "options": {
+      "dimensions": {
+        "title": "Dimensions",
+        "text": "Seat height, width and depth adjusted to your layout."
+      },
+      "weave": {
+        "title": "Weave & material",
+        "text": "Natural rattan, cane webbing or synthetic fibre for outdoor use."
+      },
+      "finish": {
+        "title": "Color & finishing",
+        "text": "Natural, honey, walnut, whitewash, black or matched to your sample."
+      },
+      "fabric": {
+        "title": "Cushions & fabrics",
+        "text": "Indoor or outdoor upholstery in your chosen colors."
+      },
+      "branding": {
+        "title": "Packaging & labeling",
+        "text": "Retail-ready packaging and labels for distributors."
+      },
+      "design": {
+        "title": "New designs",
+        "text": "Develop pieces from your drawings, references or mood board."
+      }
+    },
+    "processTitle": "How custom orders work",
+    "process": {
+      "brief": {
+        "title": "Share your brief",
+        "text": "Send drawings, references, quantities and destination."
+      },
+      "proposal": {
+        "title": "Proposal & quotation",
+        "text": "We confirm materials, construction, price and lead time."
+      },
+      "sample": {
+        "title": "Sample approval",
+        "text": "Samples or detailed photos are prepared when required."
+      },
+      "production": {
+        "title": "Production",
+        "text": "Your order is handcrafted with progress updates."
+      },
+      "delivery": {
+        "title": "Packing & delivery",
+        "text": "Export packing and shipping coordination to your site."
+      }
+    },
+    "noteTitle": "Good to know",
+    "note": "Minimum order quantities, sampling costs and lead times depend on the design and quantity. We will explain these clearly in your quotation.",
+    "primaryCta": "Request Custom Furniture",
+    "secondaryCta": "Discuss Your Project"
+  },
+  "export": {
+    "eyebrow": "Export Information",
+    "title": "Buying rattan furniture from Indonesia",
+    "description": "An overview of how we prepare international orders — from minimum quantities to packing and shipping.",
+    "sections": {
+      "moq": {
+        "title": "Minimum order",
+        "text": "Minimum order quantities are listed on each product and may be combined across items for container orders. Smaller orders can be discussed."
+      },
+      "container": {
+        "title": "Container & consolidated shipping",
+        "text": "We can prepare full container loads (20ft or 40ft) or consolidated shipments. Loading plans are shared before production is finalized."
+      },
+      "packing": {
+        "title": "Export packing",
+        "text": "Pieces are wrapped in foam, plastic and cardboard. Knock-down packing or wooden crates can be arranged for fragile items."
+      },
+      "documents": {
+        "title": "Documentation",
+        "text": "We prepare commercial invoices and packing lists, and can help arrange other documents your country requires."
+      },
+      "terms": {
+        "title": "Trade terms",
+        "text": "Quotations are typically prepared on EXW or FOB terms. Other terms can be discussed with your forwarder."
+      },
+      "leadtime": {
+        "title": "Lead time",
+        "text": "Lead times depend on design, quantity and season. Each quotation includes an estimated production schedule."
+      }
+    },
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Can I mix different products in one order?",
+        "a": "Yes. Many buyers combine chairs, tables and accessories in one shipment. Minimum quantities per item still apply unless agreed otherwise."
+      },
+      {
+        "q": "Do prices on the website include shipping?",
+        "a": "No. Website prices are indicative product prices only. Freight, insurance, duties and taxes are quoted separately."
+      },
+      {
+        "q": "Can I use my own freight forwarder?",
+        "a": "Yes. We can hand over goods to your forwarder or help you compare shipping options."
+      },
+      {
+        "q": "How do I pay for an order?",
+        "a": "Payment terms are agreed after you accept a quotation. This website does not take online payments."
+      }
+    ],
+    "ctaTitle": "Ready to plan a shipment?",
+    "ctaText": "Send your product list and destination to receive a quotation.",
+    "detailLink": "Read shipping & export policy"
+  },
+  "shipping": {
+    "eyebrow": "Information",
+    "title": "Shipping & Export Information",
+    "updated": "Last updated: {date}",
+    "intro": "This page explains how Global Rotan prepares and ships orders. Specific terms are confirmed in each quotation.",
+    "sections": [
+      {
+        "title": "Order process",
+        "body": "Orders are confirmed only after you accept a written quotation. Prices shown on the website are indicative and do not constitute an offer."
+      },
+      {
+        "title": "Production and lead times",
+        "body": "Ready-stock items can usually be prepared faster. Made-to-order and custom items follow the production schedule stated in your quotation. Lead times can change during peak seasons."
+      },
+      {
+        "title": "Packing",
+        "body": "Standard export packing includes foam protection, plastic wrapping and cardboard cartons. Special packing, such as wooden crates or retail boxes, can be quoted on request."
+      },
+      {
+        "title": "Domestic delivery (Indonesia)",
+        "body": "We can arrange delivery within Indonesia through trusted logistics partners. Costs depend on volume and destination."
+      },
+      {
+        "title": "International shipping",
+        "body": "We support consolidated (LCL) and full container (FCL) shipments. Freight, insurance, import duties, taxes and customs clearance at the destination are the buyer’s responsibility unless agreed otherwise in writing."
+      },
+      {
+        "title": "Documentation",
+        "body": "Commercial invoice and packing list are provided for every export shipment. Additional documents required by your country can be discussed before production."
+      },
+      {
+        "title": "Inspection and claims",
+        "body": "Please inspect goods on arrival and report visible damage within 7 days with photos. We will review claims fairly according to the agreed shipping terms."
+      }
+    ]
+  },
+  "legal": {
+    "updated": "Last updated: {date}",
+    "reviewNote": "This document is a general template. Please review it with a legal advisor before publishing.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy explains how Global Rotan collects and uses personal information submitted through this website.",
+      "sections": [
+        {
+          "title": "Information we collect",
+          "body": "When you send an inquiry or message, we collect the details you provide, such as your name, company, email address, phone or WhatsApp number, country, shipping destination and the products you are interested in. Favorites and inquiry lists are stored in your own browser until you submit them."
+        },
+        {
+          "title": "How we use your information",
+          "body": "We use your information to respond to your requests, prepare quotations, arrange production and shipping, and improve our service. We do not sell your personal information."
+        },
+        {
+          "title": "Sharing",
+          "body": "We may share necessary details with logistics partners or service providers only to fulfil your request. These parties are expected to protect your information."
+        },
+        {
+          "title": "Storage and security",
+          "body": "Data is stored with reputable cloud providers using access controls. Only authorized staff can view inquiries and messages."
+        },
+        {
+          "title": "Your choices",
+          "body": "You may ask us to access, correct or delete your personal information by contacting us at the email address listed on this website."
+        },
+        {
+          "title": "Cookies and local storage",
+          "body": "We use essential cookies and local storage to remember your language, currency, favorites and inquiry list. We do not use them for advertising."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "intro": "By using this website you agree to the following terms.",
+      "sections": [
+        {
+          "title": "Catalog information",
+          "body": "Product images, descriptions, dimensions and colors are provided for reference. Handmade products and natural materials may vary slightly from what is shown."
+        },
+        {
+          "title": "Prices",
+          "body": "Prices on this website are indicative estimates and may change without notice. Final prices are confirmed only in a written quotation and depend on quantity, specifications, packaging, destination, taxes and shipping."
+        },
+        {
+          "title": "No online transactions",
+          "body": "This website does not process orders or payments. Submitting an inquiry does not create a purchase contract."
+        },
+        {
+          "title": "Orders",
+          "body": "An order is confirmed only after both parties agree to a written quotation, including payment terms, production schedule and delivery terms."
+        },
+        {
+          "title": "Intellectual property",
+          "body": "Website content, product designs and images belong to Global Rotan or their respective owners and may not be reused without permission."
+        },
+        {
+          "title": "Limitation of liability",
+          "body": "We aim to keep information accurate, but we are not liable for losses arising from reliance on website content without written confirmation."
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This page could not be found",
+    "description": "The page may have moved, or the link may be incorrect. Try browsing the catalog instead.",
+    "home": "Back to Home",
+    "products": "Browse Products"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred while loading this page. Please try again.",
+    "retry": "Try again",
+    "home": "Back to Home"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "nameMin": "Please enter your full name.",
+    "tooLong": "This entry is too long.",
+    "emailInvalid": "Please enter a valid email address.",
+    "codeInvalid": "Please enter a valid country code, e.g. +1 or +62.",
+    "phoneInvalid": "Please enter a valid phone number (6–15 digits).",
+    "countryRequired": "Please select your country.",
+    "customerTypeRequired": "Please choose a customer type.",
+    "destinationRequired": "Please tell us the shipping destination.",
+    "privacyRequired": "Please agree to the Privacy Policy to continue.",
+    "messageMin": "Please write at least 10 characters.",
+    "dateInvalid": "Please choose a date in the future.",
+    "itemsRequired": "Add at least one product to your inquiry list.",
+    "quantityMin": "Quantity must be at least 1.",
+    "spam": "Your message could not be sent. Please try again."
+  }
+}
